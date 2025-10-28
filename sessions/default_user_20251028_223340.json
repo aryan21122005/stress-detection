@@ -1,0 +1,2458 @@
+[
+  {
+    "timestamp": 1761671028.145043,
+    "datetime": "2025-10-28T22:33:48.145043",
+    "attention_score": 0.8279926872920805,
+    "emotion": "angry",
+    "emotion_confidence": 0.24947670102119446,
+    "stress_level": 0.17997492849826813
+  },
+  {
+    "timestamp": 1761671028.29208,
+    "datetime": "2025-10-28T22:33:48.292080",
+    "attention_score": 0.8302778005091851,
+    "emotion": "angry",
+    "emotion_confidence": 0.2515736222267151,
+    "stress_level": 0.1774803102016449
+  },
+  {
+    "timestamp": 1761671028.37884,
+    "datetime": "2025-10-28T22:33:48.378840",
+    "attention_score": 0.8318585974544044,
+    "emotion": "angry",
+    "emotion_confidence": 0.2515736222267151,
+    "stress_level": 0.1774803102016449
+  },
+  {
+    "timestamp": 1761671028.462979,
+    "datetime": "2025-10-28T22:33:48.462979",
+    "attention_score": 0.8302778005091851,
+    "emotion": "angry",
+    "emotion_confidence": 0.24359749257564545,
+    "stress_level": 0.18083858489990234
+  },
+  {
+    "timestamp": 1761671028.548732,
+    "datetime": "2025-10-28T22:33:48.548732",
+    "attention_score": 0.8327378087402895,
+    "emotion": "angry",
+    "emotion_confidence": 0.25121429562568665,
+    "stress_level": 0.17524629831314087
+  },
+  {
+    "timestamp": 1761671028.636879,
+    "datetime": "2025-10-28T22:33:48.636879",
+    "attention_score": 0.8311562760272091,
+    "emotion": "angry",
+    "emotion_confidence": 0.2426161915063858,
+    "stress_level": 0.18230381608009338
+  },
+  {
+    "timestamp": 1761671028.720323,
+    "datetime": "2025-10-28T22:33:48.720323",
+    "attention_score": 0.8318585974544044,
+    "emotion": "angry",
+    "emotion_confidence": 0.2426161915063858,
+    "stress_level": 0.18230381608009338
+  },
+  {
+    "timestamp": 1761671028.819121,
+    "datetime": "2025-10-28T22:33:48.819121",
+    "attention_score": 0.8311562760272091,
+    "emotion": "angry",
+    "emotion_confidence": 0.24216043949127197,
+    "stress_level": 0.1781429648399353
+  },
+  {
+    "timestamp": 1761671028.906746,
+    "datetime": "2025-10-28T22:33:48.906746",
+    "attention_score": 0.8325563061056045,
+    "emotion": "angry",
+    "emotion_confidence": 0.24003255367279053,
+    "stress_level": 0.1754555106163025
+  },
+  {
+    "timestamp": 1761671028.998376,
+    "datetime": "2025-10-28T22:33:48.998376",
+    "attention_score": 0.8289962993821479,
+    "emotion": "angry",
+    "emotion_confidence": 0.24353353679180145,
+    "stress_level": 0.17568685114383698
+  },
+  {
+    "timestamp": 1761671029.082354,
+    "datetime": "2025-10-28T22:33:49.082354",
+    "attention_score": 0.8301100999912002,
+    "emotion": "angry",
+    "emotion_confidence": 0.24443957209587097,
+    "stress_level": 0.17538732290267944
+  },
+  {
+    "timestamp": 1761671029.168848,
+    "datetime": "2025-10-28T22:33:49.168848",
+    "attention_score": 0.829199952429749,
+    "emotion": "angry",
+    "emotion_confidence": 0.24443957209587097,
+    "stress_level": 0.17538732290267944
+  },
+  {
+    "timestamp": 1761671029.262949,
+    "datetime": "2025-10-28T22:33:49.262949",
+    "attention_score": 0.8367780460538473,
+    "emotion": "angry",
+    "emotion_confidence": 0.24480652809143066,
+    "stress_level": 0.17268678545951843
+  },
+  {
+    "timestamp": 1761671029.353613,
+    "datetime": "2025-10-28T22:33:49.353613",
+    "attention_score": 0.8470992969277119,
+    "emotion": "angry",
+    "emotion_confidence": 0.2607875168323517,
+    "stress_level": 0.15820972621440887
+  },
+  {
+    "timestamp": 1761671029.448516,
+    "datetime": "2025-10-28T22:33:49.448516",
+    "attention_score": 0.8545135315570551,
+    "emotion": "angry",
+    "emotion_confidence": 0.2572018504142761,
+    "stress_level": 0.16667993366718292
+  },
+  {
+    "timestamp": 1761671029.535458,
+    "datetime": "2025-10-28T22:33:49.535458",
+    "attention_score": 0.8539188474682651,
+    "emotion": "angry",
+    "emotion_confidence": 0.2572018504142761,
+    "stress_level": 0.16667993366718292
+  },
+  {
+    "timestamp": 1761671029.631236,
+    "datetime": "2025-10-28T22:33:49.631236",
+    "attention_score": 0.8766341188780302,
+    "emotion": "angry",
+    "emotion_confidence": 0.2459837943315506,
+    "stress_level": 0.16010479629039764
+  },
+  {
+    "timestamp": 1761671029.735084,
+    "datetime": "2025-10-28T22:33:49.735084",
+    "attention_score": 0.8931960762658975,
+    "emotion": "angry",
+    "emotion_confidence": 0.24832797050476074,
+    "stress_level": 0.15603789687156677
+  },
+  {
+    "timestamp": 1761671029.834578,
+    "datetime": "2025-10-28T22:33:49.834578",
+    "attention_score": 0.9024293525182906,
+    "emotion": "angry",
+    "emotion_confidence": 0.24800120294094086,
+    "stress_level": 0.15518023073673248
+  },
+  {
+    "timestamp": 1761671029.934135,
+    "datetime": "2025-10-28T22:33:49.934135",
+    "attention_score": 0.9059833791290072,
+    "emotion": "angry",
+    "emotion_confidence": 0.24948334693908691,
+    "stress_level": 0.15612004697322845
+  },
+  {
+    "timestamp": 1761671030.022128,
+    "datetime": "2025-10-28T22:33:50.022128",
+    "attention_score": 0.904375,
+    "emotion": "angry",
+    "emotion_confidence": 0.24517397582530975,
+    "stress_level": 0.1625344306230545
+  },
+  {
+    "timestamp": 1761671030.102999,
+    "datetime": "2025-10-28T22:33:50.102999",
+    "attention_score": 0.9038207240357882,
+    "emotion": "angry",
+    "emotion_confidence": 0.24517397582530975,
+    "stress_level": 0.1625344306230545
+  },
+  {
+    "timestamp": 1761671030.217934,
+    "datetime": "2025-10-28T22:33:50.217934",
+    "attention_score": 0.8963716828033959,
+    "emotion": "angry",
+    "emotion_confidence": 0.2419366091489792,
+    "stress_level": 0.1552058607339859
+  },
+  {
+    "timestamp": 1761671030.302531,
+    "datetime": "2025-10-28T22:33:50.302531",
+    "attention_score": 0.8895435606222978,
+    "emotion": "angry",
+    "emotion_confidence": 0.23068362474441528,
+    "stress_level": 0.15401513874530792
+  },
+  {
+    "timestamp": 1761671030.395041,
+    "datetime": "2025-10-28T22:33:50.395041",
+    "attention_score": 0.8879226689959117,
+    "emotion": "angry",
+    "emotion_confidence": 0.2249741554260254,
+    "stress_level": 0.1543966382741928
+  },
+  {
+    "timestamp": 1761671030.483494,
+    "datetime": "2025-10-28T22:33:50.483494",
+    "attention_score": 0.8771481456183913,
+    "emotion": "angry",
+    "emotion_confidence": 0.24901098012924194,
+    "stress_level": 0.1515021026134491
+  },
+  {
+    "timestamp": 1761671030.574731,
+    "datetime": "2025-10-28T22:33:50.574731",
+    "attention_score": 0.8762500000000001,
+    "emotion": "angry",
+    "emotion_confidence": 0.24901098012924194,
+    "stress_level": 0.1515021026134491
+  },
+  {
+    "timestamp": 1761671030.672495,
+    "datetime": "2025-10-28T22:33:50.672495",
+    "attention_score": 0.8703367341919849,
+    "emotion": "angry",
+    "emotion_confidence": 0.24707059562206268,
+    "stress_level": 0.15599830448627472
+  },
+  {
+    "timestamp": 1761671030.755837,
+    "datetime": "2025-10-28T22:33:50.755837",
+    "attention_score": 0.8673358328334286,
+    "emotion": "angry",
+    "emotion_confidence": 0.2583610713481903,
+    "stress_level": 0.1531195044517517
+  },
+  {
+    "timestamp": 1761671030.838737,
+    "datetime": "2025-10-28T22:33:50.838737",
+    "attention_score": 0.8664657698378426,
+    "emotion": "angry",
+    "emotion_confidence": 0.2508847117424011,
+    "stress_level": 0.15335232019424438
+  },
+  {
+    "timestamp": 1761671030.933168,
+    "datetime": "2025-10-28T22:33:50.933168",
+    "attention_score": 0.866295276354947,
+    "emotion": "angry",
+    "emotion_confidence": 0.24541474878787994,
+    "stress_level": 0.15675026178359985
+  },
+  {
+    "timestamp": 1761671031.02233,
+    "datetime": "2025-10-28T22:33:51.022330",
+    "attention_score": 0.8669928338396762,
+    "emotion": "angry",
+    "emotion_confidence": 0.24541474878787994,
+    "stress_level": 0.15675026178359985
+  },
+  {
+    "timestamp": 1761671031.109527,
+    "datetime": "2025-10-28T22:33:51.109527",
+    "attention_score": 0.864527389760882,
+    "emotion": "angry",
+    "emotion_confidence": 0.24092918634414673,
+    "stress_level": 0.1581241488456726
+  },
+  {
+    "timestamp": 1761671031.200747,
+    "datetime": "2025-10-28T22:33:51.200747",
+    "attention_score": 0.8661060937719718,
+    "emotion": "angry",
+    "emotion_confidence": 0.24143947660923004,
+    "stress_level": 0.15608370304107666
+  },
+  {
+    "timestamp": 1761671031.288365,
+    "datetime": "2025-10-28T22:33:51.288365",
+    "attention_score": 0.8667931589594589,
+    "emotion": "angry",
+    "emotion_confidence": 0.25079458951950073,
+    "stress_level": 0.15475359559059143
+  },
+  {
+    "timestamp": 1761671031.385921,
+    "datetime": "2025-10-28T22:33:51.385921",
+    "attention_score": 0.8667931589594589,
+    "emotion": "angry",
+    "emotion_confidence": 0.25079458951950073,
+    "stress_level": 0.15475359559059143
+  },
+  {
+    "timestamp": 1761671031.474744,
+    "datetime": "2025-10-28T22:33:51.474744",
+    "attention_score": 0.8652157974761137,
+    "emotion": "angry",
+    "emotion_confidence": 0.2621745765209198,
+    "stress_level": 0.14928756654262543
+  },
+  {
+    "timestamp": 1761671031.559639,
+    "datetime": "2025-10-28T22:33:51.559639",
+    "attention_score": 0.8643220149582107,
+    "emotion": "angry",
+    "emotion_confidence": 0.24824169278144836,
+    "stress_level": 0.149018794298172
+  },
+  {
+    "timestamp": 1761671031.644968,
+    "datetime": "2025-10-28T22:33:51.644968",
+    "attention_score": 0.8652157974761137,
+    "emotion": "angry",
+    "emotion_confidence": 0.23164556920528412,
+    "stress_level": 0.15263500809669495
+  },
+  {
+    "timestamp": 1761671031.735624,
+    "datetime": "2025-10-28T22:33:51.735624",
+    "attention_score": 0.864527389760882,
+    "emotion": "angry",
+    "emotion_confidence": 0.23164556920528412,
+    "stress_level": 0.15263500809669495
+  },
+  {
+    "timestamp": 1761671031.842255,
+    "datetime": "2025-10-28T22:33:51.842255",
+    "attention_score": 0.864527389760882,
+    "emotion": "angry",
+    "emotion_confidence": 0.22746065258979797,
+    "stress_level": 0.1550813764333725
+  },
+  {
+    "timestamp": 1761671031.948137,
+    "datetime": "2025-10-28T22:33:51.948137",
+    "attention_score": 0.8627453894217029,
+    "emotion": "angry",
+    "emotion_confidence": 0.22985480725765228,
+    "stress_level": 0.15248501300811768
+  },
+  {
+    "timestamp": 1761671032.066145,
+    "datetime": "2025-10-28T22:33:52.066145",
+    "attention_score": 0.8627453894217029,
+    "emotion": "angry",
+    "emotion_confidence": 0.22845067083835602,
+    "stress_level": 0.15307442843914032
+  },
+  {
+    "timestamp": 1761671032.166857,
+    "datetime": "2025-10-28T22:33:52.166857",
+    "attention_score": 0.8620601353850164,
+    "emotion": "happy",
+    "emotion_confidence": 0.2311234027147293,
+    "stress_level": 0.15417219698429108
+  },
+  {
+    "timestamp": 1761671032.279543,
+    "datetime": "2025-10-28T22:33:52.279543",
+    "attention_score": 0.8620601353850164,
+    "emotion": "happy",
+    "emotion_confidence": 0.2311234027147293,
+    "stress_level": 0.15417219698429108
+  },
+  {
+    "timestamp": 1761671032.381869,
+    "datetime": "2025-10-28T22:33:52.381869",
+    "attention_score": 0.8627453894217029,
+    "emotion": "happy",
+    "emotion_confidence": 0.2569698691368103,
+    "stress_level": 0.1612718105316162
+  },
+  {
+    "timestamp": 1761671032.482682,
+    "datetime": "2025-10-28T22:33:52.482682",
+    "attention_score": 0.8616204269048354,
+    "emotion": "happy",
+    "emotion_confidence": 0.2408871054649353,
+    "stress_level": 0.15863490104675293
+  },
+  {
+    "timestamp": 1761671032.604001,
+    "datetime": "2025-10-28T22:33:52.604001",
+    "attention_score": 0.8613737037932557,
+    "emotion": "happy",
+    "emotion_confidence": 0.2430756837129593,
+    "stress_level": 0.15888431668281555
+  },
+  {
+    "timestamp": 1761671032.694642,
+    "datetime": "2025-10-28T22:33:52.694642",
+    "attention_score": 0.8620280259436722,
+    "emotion": "happy",
+    "emotion_confidence": 0.24621355533599854,
+    "stress_level": 0.16256417334079742
+  },
+  {
+    "timestamp": 1761671032.793988,
+    "datetime": "2025-10-28T22:33:52.793988",
+    "attention_score": 0.8626762493229959,
+    "emotion": "happy",
+    "emotion_confidence": 0.2591116726398468,
+    "stress_level": 0.16153648495674133
+  },
+  {
+    "timestamp": 1761671032.889193,
+    "datetime": "2025-10-28T22:33:52.889193",
+    "attention_score": 0.861460463675527,
+    "emotion": "happy",
+    "emotion_confidence": 0.24681802093982697,
+    "stress_level": 0.16281212866306305
+  },
+  {
+    "timestamp": 1761671032.982392,
+    "datetime": "2025-10-28T22:33:52.982392",
+    "attention_score": 0.8620876637135024,
+    "emotion": "happy",
+    "emotion_confidence": 0.2431756556034088,
+    "stress_level": 0.16170307993888855
+  },
+  {
+    "timestamp": 1761671033.071858,
+    "datetime": "2025-10-28T22:33:53.071858",
+    "attention_score": 0.861460463675527,
+    "emotion": "happy",
+    "emotion_confidence": 0.2431756556034088,
+    "stress_level": 0.16170307993888855
+  },
+  {
+    "timestamp": 1761671033.156569,
+    "datetime": "2025-10-28T22:33:53.156569",
+    "attention_score": 0.8620876637135024,
+    "emotion": "happy",
+    "emotion_confidence": 0.2467828243970871,
+    "stress_level": 0.15881088376045227
+  },
+  {
+    "timestamp": 1761671033.245397,
+    "datetime": "2025-10-28T22:33:53.245397",
+    "attention_score": 0.8608224492779097,
+    "emotion": "happy",
+    "emotion_confidence": 0.2398386150598526,
+    "stress_level": 0.16209252178668976
+  },
+  {
+    "timestamp": 1761671033.329781,
+    "datetime": "2025-10-28T22:33:53.329781",
+    "attention_score": 0.8617668409895802,
+    "emotion": "happy",
+    "emotion_confidence": 0.2475878745317459,
+    "stress_level": 0.16366319358348846
+  },
+  {
+    "timestamp": 1761671033.439214,
+    "datetime": "2025-10-28T22:33:53.439214",
+    "attention_score": 0.8623770436119031,
+    "emotion": "happy",
+    "emotion_confidence": 0.24943698942661285,
+    "stress_level": 0.16505347192287445
+  },
+  {
+    "timestamp": 1761671033.541133,
+    "datetime": "2025-10-28T22:33:53.541133",
+    "attention_score": 0.8608224492779097,
+    "emotion": "happy",
+    "emotion_confidence": 0.24274693429470062,
+    "stress_level": 0.16231082379817963
+  },
+  {
+    "timestamp": 1761671033.629086,
+    "datetime": "2025-10-28T22:33:53.629086",
+    "attention_score": 0.8602099788969184,
+    "emotion": "happy",
+    "emotion_confidence": 0.23992200195789337,
+    "stress_level": 0.1645096242427826
+  },
+  {
+    "timestamp": 1761671033.713949,
+    "datetime": "2025-10-28T22:33:53.713949",
+    "attention_score": 0.8608224492779097,
+    "emotion": "happy",
+    "emotion_confidence": 0.24648742377758026,
+    "stress_level": 0.16509541869163513
+  },
+  {
+    "timestamp": 1761671033.798831,
+    "datetime": "2025-10-28T22:33:53.798831",
+    "attention_score": 0.8608224492779097,
+    "emotion": "happy",
+    "emotion_confidence": 0.24648742377758026,
+    "stress_level": 0.16509541869163513
+  },
+  {
+    "timestamp": 1761671033.890262,
+    "datetime": "2025-10-28T22:33:53.890262",
+    "attention_score": 0.8608224492779097,
+    "emotion": "happy",
+    "emotion_confidence": 0.24125072360038757,
+    "stress_level": 0.1596466451883316
+  },
+  {
+    "timestamp": 1761671033.985911,
+    "datetime": "2025-10-28T22:33:53.985911",
+    "attention_score": 0.8608224492779097,
+    "emotion": "happy",
+    "emotion_confidence": 0.24125072360038757,
+    "stress_level": 0.1596466451883316
+  },
+  {
+    "timestamp": 1761671034.082853,
+    "datetime": "2025-10-28T22:33:54.082853",
+    "attention_score": 0.8592670414401801,
+    "emotion": "happy",
+    "emotion_confidence": 0.23327293992042542,
+    "stress_level": 0.16247518360614777
+  },
+  {
+    "timestamp": 1761671034.196894,
+    "datetime": "2025-10-28T22:33:54.196894",
+    "attention_score": 0.8592670414401801,
+    "emotion": "happy",
+    "emotion_confidence": 0.2430468648672104,
+    "stress_level": 0.16785027086734772
+  },
+  {
+    "timestamp": 1761671034.295803,
+    "datetime": "2025-10-28T22:33:54.295803",
+    "attention_score": 0.8595911661432942,
+    "emotion": "happy",
+    "emotion_confidence": 0.24131737649440765,
+    "stress_level": 0.1697591245174408
+  },
+  {
+    "timestamp": 1761671034.404456,
+    "datetime": "2025-10-28T22:33:54.404456",
+    "attention_score": 0.8598753902770824,
+    "emotion": "happy",
+    "emotion_confidence": 0.2395029217004776,
+    "stress_level": 0.1643790751695633
+  },
+  {
+    "timestamp": 1761671034.489155,
+    "datetime": "2025-10-28T22:33:54.489155",
+    "attention_score": 0.8592670414401801,
+    "emotion": "happy",
+    "emotion_confidence": 0.22361981868743896,
+    "stress_level": 0.16528455913066864
+  },
+  {
+    "timestamp": 1761671034.579463,
+    "datetime": "2025-10-28T22:33:54.579463",
+    "attention_score": 0.8589660945020666,
+    "emotion": "happy",
+    "emotion_confidence": 0.23513272404670715,
+    "stress_level": 0.16477198898792267
+  },
+  {
+    "timestamp": 1761671034.674359,
+    "datetime": "2025-10-28T22:33:54.674359",
+    "attention_score": 0.8592670414401801,
+    "emotion": "happy",
+    "emotion_confidence": 0.22013987600803375,
+    "stress_level": 0.1666102111339569
+  },
+  {
+    "timestamp": 1761671034.756599,
+    "datetime": "2025-10-28T22:33:54.756599",
+    "attention_score": 0.8595911661432942,
+    "emotion": "happy",
+    "emotion_confidence": 0.23661960661411285,
+    "stress_level": 0.1641671061515808
+  },
+  {
+    "timestamp": 1761671034.830383,
+    "datetime": "2025-10-28T22:33:54.830383",
+    "attention_score": 0.8586523567582395,
+    "emotion": "happy",
+    "emotion_confidence": 0.22714540362358093,
+    "stress_level": 0.16866852343082428
+  },
+  {
+    "timestamp": 1761671034.958356,
+    "datetime": "2025-10-28T22:33:54.958356",
+    "attention_score": 0.8595911661432942,
+    "emotion": "happy",
+    "emotion_confidence": 0.23180149495601654,
+    "stress_level": 0.16784809529781342
+  },
+  {
+    "timestamp": 1761671035.048282,
+    "datetime": "2025-10-28T22:33:55.048282",
+    "attention_score": 0.8598979724450785,
+    "emotion": "happy",
+    "emotion_confidence": 0.24347235262393951,
+    "stress_level": 0.1669759750366211
+  },
+  {
+    "timestamp": 1761671035.13965,
+    "datetime": "2025-10-28T22:33:55.139650",
+    "attention_score": 0.8592670414401801,
+    "emotion": "happy",
+    "emotion_confidence": 0.2276553064584732,
+    "stress_level": 0.16506853699684143
+  },
+  {
+    "timestamp": 1761671035.22677,
+    "datetime": "2025-10-28T22:33:55.226770",
+    "attention_score": 0.8586523567582395,
+    "emotion": "angry",
+    "emotion_confidence": 0.22156554460525513,
+    "stress_level": 0.15827696025371552
+  },
+  {
+    "timestamp": 1761671035.312091,
+    "datetime": "2025-10-28T22:33:55.312091",
+    "attention_score": 0.8595911661432942,
+    "emotion": "angry",
+    "emotion_confidence": 0.21953536570072174,
+    "stress_level": 0.1635022610425949
+  },
+  {
+    "timestamp": 1761671035.399397,
+    "datetime": "2025-10-28T22:33:55.399397",
+    "attention_score": 0.8595911661432942,
+    "emotion": "angry",
+    "emotion_confidence": 0.2237246334552765,
+    "stress_level": 0.1595873087644577
+  },
+  {
+    "timestamp": 1761671035.488062,
+    "datetime": "2025-10-28T22:33:55.488062",
+    "attention_score": 0.8592670414401801,
+    "emotion": "angry",
+    "emotion_confidence": 0.22826169431209564,
+    "stress_level": 0.15936219692230225
+  },
+  {
+    "timestamp": 1761671035.589268,
+    "datetime": "2025-10-28T22:33:55.589268",
+    "attention_score": 0.8605272203976705,
+    "emotion": "happy",
+    "emotion_confidence": 0.22687777876853943,
+    "stress_level": 0.16736873984336853
+  },
+  {
+    "timestamp": 1761671035.679054,
+    "datetime": "2025-10-28T22:33:55.679054",
+    "attention_score": 0.8580314185286054,
+    "emotion": "angry",
+    "emotion_confidence": 0.22302843630313873,
+    "stress_level": 0.16238631308078766
+  },
+  {
+    "timestamp": 1761671035.777141,
+    "datetime": "2025-10-28T22:33:55.777141",
+    "attention_score": 0.8602099788969184,
+    "emotion": "angry",
+    "emotion_confidence": 0.22660093009471893,
+    "stress_level": 0.15938502550125122
+  },
+  {
+    "timestamp": 1761671035.871735,
+    "datetime": "2025-10-28T22:33:55.871735",
+    "attention_score": 0.8595911661432942,
+    "emotion": "angry",
+    "emotion_confidence": 0.22710779309272766,
+    "stress_level": 0.15880726277828217
+  },
+  {
+    "timestamp": 1761671035.956836,
+    "datetime": "2025-10-28T22:33:55.956836",
+    "attention_score": 0.8589660945020666,
+    "emotion": "angry",
+    "emotion_confidence": 0.22289137542247772,
+    "stress_level": 0.1625005006790161
+  },
+  {
+    "timestamp": 1761671036.043328,
+    "datetime": "2025-10-28T22:33:56.043328",
+    "attention_score": 0.8595911661432942,
+    "emotion": "angry",
+    "emotion_confidence": 0.2274259328842163,
+    "stress_level": 0.16038887202739716
+  },
+  {
+    "timestamp": 1761671036.134129,
+    "datetime": "2025-10-28T22:33:56.134129",
+    "attention_score": 0.8595911661432942,
+    "emotion": "angry",
+    "emotion_confidence": 0.2274259328842163,
+    "stress_level": 0.16038887202739716
+  },
+  {
+    "timestamp": 1761671036.228839,
+    "datetime": "2025-10-28T22:33:56.228839",
+    "attention_score": 0.8598753902770824,
+    "emotion": "happy",
+    "emotion_confidence": 0.221615269780159,
+    "stress_level": 0.16210609674453735
+  },
+  {
+    "timestamp": 1761671036.324402,
+    "datetime": "2025-10-28T22:33:56.324402",
+    "attention_score": 0.8592670414401801,
+    "emotion": "happy",
+    "emotion_confidence": 0.22380566596984863,
+    "stress_level": 0.1647828221321106
+  },
+  {
+    "timestamp": 1761671036.419396,
+    "datetime": "2025-10-28T22:33:56.419396",
+    "attention_score": 0.8583214465771195,
+    "emotion": "happy",
+    "emotion_confidence": 0.23359310626983643,
+    "stress_level": 0.16466359794139862
+  },
+  {
+    "timestamp": 1761671036.516778,
+    "datetime": "2025-10-28T22:33:56.516778",
+    "attention_score": 0.8589257177051749,
+    "emotion": "happy",
+    "emotion_confidence": 0.23073191940784454,
+    "stress_level": 0.1662028729915619
+  },
+  {
+    "timestamp": 1761671036.601488,
+    "datetime": "2025-10-28T22:33:56.601488",
+    "attention_score": 0.8598753902770824,
+    "emotion": "happy",
+    "emotion_confidence": 0.23073191940784454,
+    "stress_level": 0.1662028729915619
+  },
+  {
+    "timestamp": 1761671036.705603,
+    "datetime": "2025-10-28T22:33:56.705603",
+    "attention_score": 0.8583214465771195,
+    "emotion": "happy",
+    "emotion_confidence": 0.23957020044326782,
+    "stress_level": 0.1667095422744751
+  },
+  {
+    "timestamp": 1761671036.809551,
+    "datetime": "2025-10-28T22:33:56.809551",
+    "attention_score": 0.8577108467767132,
+    "emotion": "happy",
+    "emotion_confidence": 0.23957020044326782,
+    "stress_level": 0.1667095422744751
+  },
+  {
+    "timestamp": 1761671036.914802,
+    "datetime": "2025-10-28T22:33:56.914802",
+    "attention_score": 0.8583214465771195,
+    "emotion": "happy",
+    "emotion_confidence": 0.2324274778366089,
+    "stress_level": 0.1684436947107315
+  },
+  {
+    "timestamp": 1761671037.008145,
+    "datetime": "2025-10-28T22:33:57.008145",
+    "attention_score": 0.8586523567582395,
+    "emotion": "happy",
+    "emotion_confidence": 0.23805995285511017,
+    "stress_level": 0.16880469024181366
+  },
+  {
+    "timestamp": 1761671037.115445,
+    "datetime": "2025-10-28T22:33:57.115445",
+    "attention_score": 0.8586523567582395,
+    "emotion": "happy",
+    "emotion_confidence": 0.23736971616744995,
+    "stress_level": 0.16627784073352814
+  },
+  {
+    "timestamp": 1761671037.215454,
+    "datetime": "2025-10-28T22:33:57.215454",
+    "attention_score": 0.8595911661432942,
+    "emotion": "happy",
+    "emotion_confidence": 0.22546686232089996,
+    "stress_level": 0.1671813577413559
+  },
+  {
+    "timestamp": 1761671037.291833,
+    "datetime": "2025-10-28T22:33:57.291833",
+    "attention_score": 0.8577108467767132,
+    "emotion": "happy",
+    "emotion_confidence": 0.2261442095041275,
+    "stress_level": 0.1599951982498169
+  },
+  {
+    "timestamp": 1761671037.413138,
+    "datetime": "2025-10-28T22:33:57.413138",
+    "attention_score": 0.8577108467767132,
+    "emotion": "happy",
+    "emotion_confidence": 0.2335169017314911,
+    "stress_level": 0.1658995896577835
+  },
+  {
+    "timestamp": 1761671037.506298,
+    "datetime": "2025-10-28T22:33:57.506298",
+    "attention_score": 0.8592670414401801,
+    "emotion": "happy",
+    "emotion_confidence": 0.23014409840106964,
+    "stress_level": 0.16613098978996277
+  },
+  {
+    "timestamp": 1761671037.596908,
+    "datetime": "2025-10-28T22:33:57.596908",
+    "attention_score": 0.8583214465771195,
+    "emotion": "happy",
+    "emotion_confidence": 0.21944938600063324,
+    "stress_level": 0.16603972017765045
+  },
+  {
+    "timestamp": 1761671037.703308,
+    "datetime": "2025-10-28T22:33:57.703308",
+    "attention_score": 0.8586523567582395,
+    "emotion": "angry",
+    "emotion_confidence": 0.22186577320098877,
+    "stress_level": 0.1617841273546219
+  },
+  {
+    "timestamp": 1761671037.808002,
+    "datetime": "2025-10-28T22:33:57.808002",
+    "attention_score": 0.8586523567582395,
+    "emotion": "angry",
+    "emotion_confidence": 0.22186577320098877,
+    "stress_level": 0.1617841273546219
+  },
+  {
+    "timestamp": 1761671037.900742,
+    "datetime": "2025-10-28T22:33:57.900742",
+    "attention_score": 0.8586523567582395,
+    "emotion": "angry",
+    "emotion_confidence": 0.24181704223155975,
+    "stress_level": 0.1571834534406662
+  },
+  {
+    "timestamp": 1761671037.989675,
+    "datetime": "2025-10-28T22:33:57.989675",
+    "attention_score": 0.8589660945020666,
+    "emotion": "angry",
+    "emotion_confidence": 0.24750728905200958,
+    "stress_level": 0.15424202382564545
+  },
+  {
+    "timestamp": 1761671038.079595,
+    "datetime": "2025-10-28T22:33:58.079595",
+    "attention_score": 0.8605272203976705,
+    "emotion": "angry",
+    "emotion_confidence": 0.24959427118301392,
+    "stress_level": 0.15452855825424194
+  },
+  {
+    "timestamp": 1761671038.165519,
+    "datetime": "2025-10-28T22:33:58.165519",
+    "attention_score": 0.8586523567582395,
+    "emotion": "angry",
+    "emotion_confidence": 0.24616852402687073,
+    "stress_level": 0.1540219485759735
+  },
+  {
+    "timestamp": 1761671038.263445,
+    "datetime": "2025-10-28T22:33:58.263445",
+    "attention_score": 0.8586523567582395,
+    "emotion": "angry",
+    "emotion_confidence": 0.24616852402687073,
+    "stress_level": 0.1540219485759735
+  },
+  {
+    "timestamp": 1761671038.35427,
+    "datetime": "2025-10-28T22:33:58.354270",
+    "attention_score": 0.8586523567582395,
+    "emotion": "angry",
+    "emotion_confidence": 0.24690918624401093,
+    "stress_level": 0.15345634520053864
+  },
+  {
+    "timestamp": 1761671038.446488,
+    "datetime": "2025-10-28T22:33:58.446488",
+    "attention_score": 0.8586523567582395,
+    "emotion": "angry",
+    "emotion_confidence": 0.2421296238899231,
+    "stress_level": 0.15449701249599457
+  },
+  {
+    "timestamp": 1761671038.529293,
+    "datetime": "2025-10-28T22:33:58.529293",
+    "attention_score": 0.8586523567582395,
+    "emotion": "angry",
+    "emotion_confidence": 0.2377312034368515,
+    "stress_level": 0.1553664654493332
+  },
+  {
+    "timestamp": 1761671038.618307,
+    "datetime": "2025-10-28T22:33:58.618307",
+    "attention_score": 0.8592670414401801,
+    "emotion": "angry",
+    "emotion_confidence": 0.23826198279857635,
+    "stress_level": 0.15434099733829498
+  },
+  {
+    "timestamp": 1761671038.704413,
+    "datetime": "2025-10-28T22:33:58.704413",
+    "attention_score": 0.8595911661432942,
+    "emotion": "angry",
+    "emotion_confidence": 0.24527163803577423,
+    "stress_level": 0.15325084328651428
+  },
+  {
+    "timestamp": 1761671038.788065,
+    "datetime": "2025-10-28T22:33:58.788065",
+    "attention_score": 0.8586523567582395,
+    "emotion": "angry",
+    "emotion_confidence": 0.24076643586158752,
+    "stress_level": 0.15380850434303284
+  },
+  {
+    "timestamp": 1761671038.874428,
+    "datetime": "2025-10-28T22:33:58.874428",
+    "attention_score": 0.8580314185286054,
+    "emotion": "angry",
+    "emotion_confidence": 0.23858146369457245,
+    "stress_level": 0.15550532937049866
+  },
+  {
+    "timestamp": 1761671038.964755,
+    "datetime": "2025-10-28T22:33:58.964755",
+    "attention_score": 0.8564048660295203,
+    "emotion": "angry",
+    "emotion_confidence": 0.2528914511203766,
+    "stress_level": 0.154205322265625
+  },
+  {
+    "timestamp": 1761671039.063907,
+    "datetime": "2025-10-28T22:33:59.063907",
+    "attention_score": 0.8566606953763204,
+    "emotion": "angry",
+    "emotion_confidence": 0.2528914511203766,
+    "stress_level": 0.154205322265625
+  },
+  {
+    "timestamp": 1761671039.157866,
+    "datetime": "2025-10-28T22:33:59.157866",
+    "attention_score": 0.857568602039438,
+    "emotion": "angry",
+    "emotion_confidence": 0.25377142429351807,
+    "stress_level": 0.15509791672229767
+  },
+  {
+    "timestamp": 1761671039.252905,
+    "datetime": "2025-10-28T22:33:59.252905",
+    "attention_score": 0.8765725795254555,
+    "emotion": "angry",
+    "emotion_confidence": 0.2820775806903839,
+    "stress_level": 0.1547446846961975
+  },
+  {
+    "timestamp": 1761671039.535529,
+    "datetime": "2025-10-28T22:33:59.535529",
+    "attention_score": 0.8517004193363987,
+    "emotion": "angry",
+    "emotion_confidence": 0.23329269886016846,
+    "stress_level": 0.17833878099918365
+  },
+  {
+    "timestamp": 1761671039.6479,
+    "datetime": "2025-10-28T22:33:59.647900",
+    "attention_score": 0.8451581451932327,
+    "emotion": "angry",
+    "emotion_confidence": 0.23755234479904175,
+    "stress_level": 0.17247122526168823
+  },
+  {
+    "timestamp": 1761671039.728237,
+    "datetime": "2025-10-28T22:33:59.728237",
+    "attention_score": 0.8320921011387493,
+    "emotion": "angry",
+    "emotion_confidence": 0.21646523475646973,
+    "stress_level": 0.18602138757705688
+  },
+  {
+    "timestamp": 1761671039.817027,
+    "datetime": "2025-10-28T22:33:59.817027",
+    "attention_score": 0.8329157211165574,
+    "emotion": "angry",
+    "emotion_confidence": 0.22700843214988708,
+    "stress_level": 0.1782190054655075
+  },
+  {
+    "timestamp": 1761671039.918505,
+    "datetime": "2025-10-28T22:33:59.918505",
+    "attention_score": 0.8473602586971533,
+    "emotion": "angry",
+    "emotion_confidence": 0.23566174507141113,
+    "stress_level": 0.1764661818742752
+  },
+  {
+    "timestamp": 1761671040.013896,
+    "datetime": "2025-10-28T22:34:00.013896",
+    "attention_score": 0.8467602980621537,
+    "emotion": "angry",
+    "emotion_confidence": 0.23566174507141113,
+    "stress_level": 0.1764661818742752
+  },
+  {
+    "timestamp": 1761671040.116238,
+    "datetime": "2025-10-28T22:34:00.116238",
+    "attention_score": 0.8652064077932486,
+    "emotion": "happy",
+    "emotion_confidence": 0.22304938733577728,
+    "stress_level": 0.17497819662094116
+  },
+  {
+    "timestamp": 1761671040.209122,
+    "datetime": "2025-10-28T22:34:00.209122",
+    "attention_score": 0.8826705359894625,
+    "emotion": "angry",
+    "emotion_confidence": 0.22529366612434387,
+    "stress_level": 0.16573892533779144
+  },
+  {
+    "timestamp": 1761671040.299467,
+    "datetime": "2025-10-28T22:34:00.299467",
+    "attention_score": 0.8870060842345926,
+    "emotion": "happy",
+    "emotion_confidence": 0.2205999344587326,
+    "stress_level": 0.16261252760887146
+  },
+  {
+    "timestamp": 1761671040.385759,
+    "datetime": "2025-10-28T22:34:00.385759",
+    "attention_score": 0.886352724955677,
+    "emotion": "angry",
+    "emotion_confidence": 0.22764353454113007,
+    "stress_level": 0.16021865606307983
+  },
+  {
+    "timestamp": 1761671040.473937,
+    "datetime": "2025-10-28T22:34:00.473937",
+    "attention_score": 0.8854376534370914,
+    "emotion": "angry",
+    "emotion_confidence": 0.22764353454113007,
+    "stress_level": 0.16021865606307983
+  },
+  {
+    "timestamp": 1761671040.563942,
+    "datetime": "2025-10-28T22:34:00.563942",
+    "attention_score": 0.8838686088949246,
+    "emotion": "angry",
+    "emotion_confidence": 0.24350830912590027,
+    "stress_level": 0.16154241561889648
+  },
+  {
+    "timestamp": 1761671040.647149,
+    "datetime": "2025-10-28T22:34:00.647149",
+    "attention_score": 0.882951332237398,
+    "emotion": "angry",
+    "emotion_confidence": 0.24411363899707794,
+    "stress_level": 0.16159750521183014
+  },
+  {
+    "timestamp": 1761671040.738422,
+    "datetime": "2025-10-28T22:34:00.738422",
+    "attention_score": 0.8832111279915762,
+    "emotion": "angry",
+    "emotion_confidence": 0.22620971500873566,
+    "stress_level": 0.16532650589942932
+  },
+  {
+    "timestamp": 1761671040.82141,
+    "datetime": "2025-10-28T22:34:00.821410",
+    "attention_score": 0.8825465517747563,
+    "emotion": "angry",
+    "emotion_confidence": 0.23430544137954712,
+    "stress_level": 0.15853449702262878
+  },
+  {
+    "timestamp": 1761671040.904416,
+    "datetime": "2025-10-28T22:34:00.904416",
+    "attention_score": 0.8796197431054411,
+    "emotion": "angry",
+    "emotion_confidence": 0.23430544137954712,
+    "stress_level": 0.15853449702262878
+  },
+  {
+    "timestamp": 1761671041.002981,
+    "datetime": "2025-10-28T22:34:01.002981",
+    "attention_score": 0.8847437637262087,
+    "emotion": "angry",
+    "emotion_confidence": 0.23325273394584656,
+    "stress_level": 0.15304851531982422
+  },
+  {
+    "timestamp": 1761671041.087877,
+    "datetime": "2025-10-28T22:34:01.087877",
+    "attention_score": 0.886492015699335,
+    "emotion": "angry",
+    "emotion_confidence": 0.2431250810623169,
+    "stress_level": 0.1505935937166214
+  },
+  {
+    "timestamp": 1761671041.169127,
+    "datetime": "2025-10-28T22:34:01.169127",
+    "attention_score": 0.8936949407365764,
+    "emotion": "angry",
+    "emotion_confidence": 0.2566649317741394,
+    "stress_level": 0.14888490736484528
+  },
+  {
+    "timestamp": 1761671041.259503,
+    "datetime": "2025-10-28T22:34:01.259503",
+    "attention_score": 0.8929770760537725,
+    "emotion": "angry",
+    "emotion_confidence": 0.2566649317741394,
+    "stress_level": 0.14888490736484528
+  },
+  {
+    "timestamp": 1761671041.347255,
+    "datetime": "2025-10-28T22:34:01.347255",
+    "attention_score": 0.8975693832391897,
+    "emotion": "angry",
+    "emotion_confidence": 0.27503904700279236,
+    "stress_level": 0.14815542101860046
+  },
+  {
+    "timestamp": 1761671041.435593,
+    "datetime": "2025-10-28T22:34:01.435593",
+    "attention_score": 0.8991507932604326,
+    "emotion": "angry",
+    "emotion_confidence": 0.27560505270957947,
+    "stress_level": 0.14510740339756012
+  },
+  {
+    "timestamp": 1761671041.520193,
+    "datetime": "2025-10-28T22:34:01.520193",
+    "attention_score": 0.8998497222919477,
+    "emotion": "angry",
+    "emotion_confidence": 0.2703244984149933,
+    "stress_level": 0.14790847897529602
+  },
+  {
+    "timestamp": 1761671041.611256,
+    "datetime": "2025-10-28T22:34:01.611256",
+    "attention_score": 0.8991507932604326,
+    "emotion": "angry",
+    "emotion_confidence": 0.2703244984149933,
+    "stress_level": 0.14790847897529602
+  },
+  {
+    "timestamp": 1761671041.694431,
+    "datetime": "2025-10-28T22:34:01.694431",
+    "attention_score": 0.8955990301769183,
+    "emotion": "angry",
+    "emotion_confidence": 0.2621934413909912,
+    "stress_level": 0.14884240925312042
+  },
+  {
+    "timestamp": 1761671041.779135,
+    "datetime": "2025-10-28T22:34:01.779135",
+    "attention_score": 0.8951092085786364,
+    "emotion": "angry",
+    "emotion_confidence": 0.2515205442905426,
+    "stress_level": 0.1499737948179245
+  },
+  {
+    "timestamp": 1761671041.878704,
+    "datetime": "2025-10-28T22:34:01.878704",
+    "attention_score": 0.8926464660572369,
+    "emotion": "angry",
+    "emotion_confidence": 0.2547706365585327,
+    "stress_level": 0.15006157755851746
+  },
+  {
+    "timestamp": 1761671041.981047,
+    "datetime": "2025-10-28T22:34:01.981047",
+    "attention_score": 0.8847437637262087,
+    "emotion": "angry",
+    "emotion_confidence": 0.2528107762336731,
+    "stress_level": 0.1532045155763626
+  },
+  {
+    "timestamp": 1761671042.06584,
+    "datetime": "2025-10-28T22:34:02.065840",
+    "attention_score": 0.8822828469380949,
+    "emotion": "angry",
+    "emotion_confidence": 0.2528107762336731,
+    "stress_level": 0.1532045155763626
+  },
+  {
+    "timestamp": 1761671042.147729,
+    "datetime": "2025-10-28T22:34:02.147729",
+    "attention_score": 0.8773543595352856,
+    "emotion": "angry",
+    "emotion_confidence": 0.24841398000717163,
+    "stress_level": 0.15421181917190552
+  },
+  {
+    "timestamp": 1761671042.252051,
+    "datetime": "2025-10-28T22:34:02.252051",
+    "attention_score": 0.8764649594244613,
+    "emotion": "angry",
+    "emotion_confidence": 0.25775644183158875,
+    "stress_level": 0.15020234882831573
+  },
+  {
+    "timestamp": 1761671042.348569,
+    "datetime": "2025-10-28T22:34:02.348569",
+    "attention_score": 0.8757753421216222,
+    "emotion": "angry",
+    "emotion_confidence": 0.25199252367019653,
+    "stress_level": 0.15284892916679382
+  },
+  {
+    "timestamp": 1761671042.43895,
+    "datetime": "2025-10-28T22:34:02.438950",
+    "attention_score": 0.8735337866266251,
+    "emotion": "angry",
+    "emotion_confidence": 0.2503170073032379,
+    "stress_level": 0.15584859251976013
+  },
+  {
+    "timestamp": 1761671042.528464,
+    "datetime": "2025-10-28T22:34:02.528464",
+    "attention_score": 0.8712968531853241,
+    "emotion": "angry",
+    "emotion_confidence": 0.2503170073032379,
+    "stress_level": 0.15584859251976013
+  },
+  {
+    "timestamp": 1761671042.611803,
+    "datetime": "2025-10-28T22:34:02.611803",
+    "attention_score": 0.8728700222213501,
+    "emotion": "angry",
+    "emotion_confidence": 0.2492045760154724,
+    "stress_level": 0.15500447154045105
+  },
+  {
+    "timestamp": 1761671042.696631,
+    "datetime": "2025-10-28T22:34:02.696631",
+    "attention_score": 0.8728700222213501,
+    "emotion": "angry",
+    "emotion_confidence": 0.25438791513442993,
+    "stress_level": 0.15100330114364624
+  },
+  {
+    "timestamp": 1761671042.781991,
+    "datetime": "2025-10-28T22:34:02.781991",
+    "attention_score": 0.8719623468467186,
+    "emotion": "angry",
+    "emotion_confidence": 0.2532743811607361,
+    "stress_level": 0.1512000411748886
+  },
+  {
+    "timestamp": 1761671042.873459,
+    "datetime": "2025-10-28T22:34:02.873459",
+    "attention_score": 0.8719623468467186,
+    "emotion": "angry",
+    "emotion_confidence": 0.2532743811607361,
+    "stress_level": 0.1512000411748886
+  },
+  {
+    "timestamp": 1761671042.95855,
+    "datetime": "2025-10-28T22:34:02.958550",
+    "attention_score": 0.8710512456438605,
+    "emotion": "angry",
+    "emotion_confidence": 0.23343110084533691,
+    "stress_level": 0.15180063247680664
+  },
+  {
+    "timestamp": 1761671043.051857,
+    "datetime": "2025-10-28T22:34:03.051857",
+    "attention_score": 0.8710512456438605,
+    "emotion": "angry",
+    "emotion_confidence": 0.22660857439041138,
+    "stress_level": 0.15698546171188354
+  },
+  {
+    "timestamp": 1761671043.145304,
+    "datetime": "2025-10-28T22:34:03.145304",
+    "attention_score": 0.8717055997909495,
+    "emotion": "angry",
+    "emotion_confidence": 0.22674047946929932,
+    "stress_level": 0.15544220805168152
+  },
+  {
+    "timestamp": 1761671043.226399,
+    "datetime": "2025-10-28T22:34:03.226399",
+    "attention_score": 0.870786513861749,
+    "emotion": "angry",
+    "emotion_confidence": 0.22650010883808136,
+    "stress_level": 0.15684577822685242
+  },
+  {
+    "timestamp": 1761671043.308542,
+    "datetime": "2025-10-28T22:34:03.308542",
+    "attention_score": 0.8717055997909495,
+    "emotion": "angry",
+    "emotion_confidence": 0.22650010883808136,
+    "stress_level": 0.15684577822685242
+  },
+  {
+    "timestamp": 1761671043.396992,
+    "datetime": "2025-10-28T22:34:03.396992",
+    "attention_score": 0.8710512456438605,
+    "emotion": "angry",
+    "emotion_confidence": 0.22699479758739471,
+    "stress_level": 0.15863871574401855
+  },
+  {
+    "timestamp": 1761671043.48424,
+    "datetime": "2025-10-28T22:34:03.484240",
+    "attention_score": 0.8692190524197045,
+    "emotion": "angry",
+    "emotion_confidence": 0.22596390545368195,
+    "stress_level": 0.15801185369491577
+  },
+  {
+    "timestamp": 1761671043.567363,
+    "datetime": "2025-10-28T22:34:03.567363",
+    "attention_score": 0.8685674483813085,
+    "emotion": "angry",
+    "emotion_confidence": 0.2381708025932312,
+    "stress_level": 0.15483585000038147
+  },
+  {
+    "timestamp": 1761671043.652717,
+    "datetime": "2025-10-28T22:34:03.652717",
+    "attention_score": 0.8676510294713253,
+    "emotion": "angry",
+    "emotion_confidence": 0.2381708025932312,
+    "stress_level": 0.15483585000038147
+  },
+  {
+    "timestamp": 1761671043.747888,
+    "datetime": "2025-10-28T22:34:03.747888",
+    "attention_score": 0.8682980993872905,
+    "emotion": "angry",
+    "emotion_confidence": 0.24362245202064514,
+    "stress_level": 0.15178556740283966
+  },
+  {
+    "timestamp": 1761671043.83201,
+    "datetime": "2025-10-28T22:34:03.832010",
+    "attention_score": 0.8679094770621298,
+    "emotion": "angry",
+    "emotion_confidence": 0.23987595736980438,
+    "stress_level": 0.1553640216588974
+  },
+  {
+    "timestamp": 1761671043.934807,
+    "datetime": "2025-10-28T22:34:03.934807",
+    "attention_score": 0.8688180533571788,
+    "emotion": "angry",
+    "emotion_confidence": 0.2399660050868988,
+    "stress_level": 0.15608303248882294
+  },
+  {
+    "timestamp": 1761671044.023771,
+    "datetime": "2025-10-28T22:34:04.023771",
+    "attention_score": 0.8679094770621298,
+    "emotion": "angry",
+    "emotion_confidence": 0.23728200793266296,
+    "stress_level": 0.1581162065267563
+  },
+  {
+    "timestamp": 1761671044.115475,
+    "datetime": "2025-10-28T22:34:04.115475",
+    "attention_score": 0.8672452331364332,
+    "emotion": "angry",
+    "emotion_confidence": 0.23728200793266296,
+    "stress_level": 0.1581162065267563
+  },
+  {
+    "timestamp": 1761671044.216183,
+    "datetime": "2025-10-28T22:34:04.216183",
+    "attention_score": 0.8669975916571433,
+    "emotion": "angry",
+    "emotion_confidence": 0.2329283058643341,
+    "stress_level": 0.15911690890789032
+  },
+  {
+    "timestamp": 1761671044.315735,
+    "datetime": "2025-10-28T22:34:04.315735",
+    "attention_score": 0.8669975916571433,
+    "emotion": "angry",
+    "emotion_confidence": 0.24140040576457977,
+    "stress_level": 0.15771472454071045
+  },
+  {
+    "timestamp": 1761671044.396848,
+    "datetime": "2025-10-28T22:34:04.396848",
+    "attention_score": 0.8669975916571433,
+    "emotion": "angry",
+    "emotion_confidence": 0.249808669090271,
+    "stress_level": 0.15550163388252258
+  },
+  {
+    "timestamp": 1761671044.48042,
+    "datetime": "2025-10-28T22:34:04.480420",
+    "attention_score": 0.8679094770621298,
+    "emotion": "angry",
+    "emotion_confidence": 0.23998034000396729,
+    "stress_level": 0.1573689877986908
+  },
+  {
+    "timestamp": 1761671044.576567,
+    "datetime": "2025-10-28T22:34:04.576567",
+    "attention_score": 0.8679094770621298,
+    "emotion": "angry",
+    "emotion_confidence": 0.23998034000396729,
+    "stress_level": 0.1573689877986908
+  },
+  {
+    "timestamp": 1761671044.672182,
+    "datetime": "2025-10-28T22:34:04.672182",
+    "attention_score": 0.8679094770621298,
+    "emotion": "angry",
+    "emotion_confidence": 0.24403120577335358,
+    "stress_level": 0.15712566673755646
+  },
+  {
+    "timestamp": 1761671044.765826,
+    "datetime": "2025-10-28T22:34:04.765826",
+    "attention_score": 0.8667314154611072,
+    "emotion": "angry",
+    "emotion_confidence": 0.24651478230953217,
+    "stress_level": 0.15390457212924957
+  },
+  {
+    "timestamp": 1761671044.854748,
+    "datetime": "2025-10-28T22:34:04.854748",
+    "attention_score": 0.8667314154611072,
+    "emotion": "angry",
+    "emotion_confidence": 0.23936396837234497,
+    "stress_level": 0.161049485206604
+  },
+  {
+    "timestamp": 1761671044.956599,
+    "datetime": "2025-10-28T22:34:04.956599",
+    "attention_score": 0.8676510294713253,
+    "emotion": "angry",
+    "emotion_confidence": 0.23936396837234497,
+    "stress_level": 0.161049485206604
+  },
+  {
+    "timestamp": 1761671045.044006,
+    "datetime": "2025-10-28T22:34:05.044006",
+    "attention_score": 0.8664468153693069,
+    "emotion": "angry",
+    "emotion_confidence": 0.23093317449092865,
+    "stress_level": 0.16189752519130707
+  },
+  {
+    "timestamp": 1761671045.124866,
+    "datetime": "2025-10-28T22:34:05.124866",
+    "attention_score": 0.8689387070871037,
+    "emotion": "angry",
+    "emotion_confidence": 0.22676941752433777,
+    "stress_level": 0.15939173102378845
+  },
+  {
+    "timestamp": 1761671045.217252,
+    "datetime": "2025-10-28T22:34:05.217252",
+    "attention_score": 0.8686396892132179,
+    "emotion": "angry",
+    "emotion_confidence": 0.22536998987197876,
+    "stress_level": 0.15511257946491241
+  },
+  {
+    "timestamp": 1761671045.312169,
+    "datetime": "2025-10-28T22:34:05.312169",
+    "attention_score": 0.8698787824757238,
+    "emotion": "happy",
+    "emotion_confidence": 0.22355057299137115,
+    "stress_level": 0.15713126957416534
+  },
+  {
+    "timestamp": 1761671045.401602,
+    "datetime": "2025-10-28T22:34:05.401602",
+    "attention_score": 0.8698787824757238,
+    "emotion": "happy",
+    "emotion_confidence": 0.22355057299137115,
+    "stress_level": 0.15713126957416534
+  },
+  {
+    "timestamp": 1761671045.489495,
+    "datetime": "2025-10-28T22:34:05.489495",
+    "attention_score": 0.8685867087201602,
+    "emotion": "angry",
+    "emotion_confidence": 0.22321511805057526,
+    "stress_level": 0.16268222033977509
+  },
+  {
+    "timestamp": 1761671045.578652,
+    "datetime": "2025-10-28T22:34:05.578652",
+    "attention_score": 0.8679861512946464,
+    "emotion": "happy",
+    "emotion_confidence": 0.23531906306743622,
+    "stress_level": 0.1634887158870697
+  },
+  {
+    "timestamp": 1761671045.669027,
+    "datetime": "2025-10-28T22:34:05.669027",
+    "attention_score": 0.8664326012830976,
+    "emotion": "happy",
+    "emotion_confidence": 0.23893997073173523,
+    "stress_level": 0.16552376747131348
+  },
+  {
+    "timestamp": 1761671045.767855,
+    "datetime": "2025-10-28T22:34:05.767855",
+    "attention_score": 0.867035660325785,
+    "emotion": "happy",
+    "emotion_confidence": 0.23525676131248474,
+    "stress_level": 0.16084115207195282
+  },
+  {
+    "timestamp": 1761671045.861854,
+    "datetime": "2025-10-28T22:34:05.861854",
+    "attention_score": 0.8660824647404232,
+    "emotion": "happy",
+    "emotion_confidence": 0.23525676131248474,
+    "stress_level": 0.16084115207195282
+  },
+  {
+    "timestamp": 1761671045.951368,
+    "datetime": "2025-10-28T22:34:05.951368",
+    "attention_score": 0.8651266218818554,
+    "emotion": "angry",
+    "emotion_confidence": 0.23006126284599304,
+    "stress_level": 0.16047118604183197
+  },
+  {
+    "timestamp": 1761671046.043393,
+    "datetime": "2025-10-28T22:34:06.043393",
+    "attention_score": 0.8651266218818554,
+    "emotion": "angry",
+    "emotion_confidence": 0.2226627916097641,
+    "stress_level": 0.16104449331760406
+  },
+  {
+    "timestamp": 1761671046.133883,
+    "datetime": "2025-10-28T22:34:06.133883",
+    "attention_score": 0.8651266218818554,
+    "emotion": "angry",
+    "emotion_confidence": 0.22814823687076569,
+    "stress_level": 0.1592400223016739
+  },
+  {
+    "timestamp": 1761671046.228515,
+    "datetime": "2025-10-28T22:34:06.228515",
+    "attention_score": 0.8651266218818554,
+    "emotion": "angry",
+    "emotion_confidence": 0.22814823687076569,
+    "stress_level": 0.1592400223016739
+  },
+  {
+    "timestamp": 1761671046.326968,
+    "datetime": "2025-10-28T22:34:06.326968",
+    "attention_score": 0.8651266218818554,
+    "emotion": "angry",
+    "emotion_confidence": 0.22677671909332275,
+    "stress_level": 0.1612478345632553
+  },
+  {
+    "timestamp": 1761671046.421765,
+    "datetime": "2025-10-28T22:34:06.421765",
+    "attention_score": 0.8647517906772885,
+    "emotion": "angry",
+    "emotion_confidence": 0.2242567241191864,
+    "stress_level": 0.1639675796031952
+  },
+  {
+    "timestamp": 1761671046.517274,
+    "datetime": "2025-10-28T22:34:06.517274",
+    "attention_score": 0.8643593327021722,
+    "emotion": "happy",
+    "emotion_confidence": 0.2332092672586441,
+    "stress_level": 0.17139004170894623
+  },
+  {
+    "timestamp": 1761671046.626733,
+    "datetime": "2025-10-28T22:34:06.626733",
+    "attention_score": 0.8658983011852572,
+    "emotion": "happy",
+    "emotion_confidence": 0.23725876212120056,
+    "stress_level": 0.16944937407970428
+  },
+  {
+    "timestamp": 1761671046.714432,
+    "datetime": "2025-10-28T22:34:06.714432",
+    "attention_score": 0.8647517906772885,
+    "emotion": "happy",
+    "emotion_confidence": 0.2401132434606552,
+    "stress_level": 0.17740614712238312
+  },
+  {
+    "timestamp": 1761671046.778952,
+    "datetime": "2025-10-28T22:34:06.778952",
+    "attention_score": 0.8647517906772885,
+    "emotion": "happy",
+    "emotion_confidence": 0.2401132434606552,
+    "stress_level": 0.17740614712238312
+  },
+  {
+    "timestamp": 1761671046.884584,
+    "datetime": "2025-10-28T22:34:06.884584",
+    "attention_score": 0.865714390197609,
+    "emotion": "happy",
+    "emotion_confidence": 0.26590532064437866,
+    "stress_level": 0.17642724514007568
+  },
+  {
+    "timestamp": 1761671046.976158,
+    "datetime": "2025-10-28T22:34:06.976158",
+    "attention_score": 0.8641681876363273,
+    "emotion": "happy",
+    "emotion_confidence": 0.25377416610717773,
+    "stress_level": 0.17661914229393005
+  },
+  {
+    "timestamp": 1761671047.064514,
+    "datetime": "2025-10-28T22:34:07.064514",
+    "attention_score": 0.8635778037671289,
+    "emotion": "happy",
+    "emotion_confidence": 0.26391106843948364,
+    "stress_level": 0.17731530964374542
+  },
+  {
+    "timestamp": 1761671047.154986,
+    "datetime": "2025-10-28T22:34:07.154986",
+    "attention_score": 0.8635778037671289,
+    "emotion": "happy",
+    "emotion_confidence": 0.26391106843948364,
+    "stress_level": 0.17731530964374542
+  },
+  {
+    "timestamp": 1761671047.248689,
+    "datetime": "2025-10-28T22:34:07.248689",
+    "attention_score": 0.8645320609885867,
+    "emotion": "happy",
+    "emotion_confidence": 0.267292857170105,
+    "stress_level": 0.1811089813709259
+  },
+  {
+    "timestamp": 1761671047.339267,
+    "datetime": "2025-10-28T22:34:07.339267",
+    "attention_score": 0.863322917063613,
+    "emotion": "happy",
+    "emotion_confidence": 0.23808597028255463,
+    "stress_level": 0.1741134375333786
+  },
+  {
+    "timestamp": 1761671047.425003,
+    "datetime": "2025-10-28T22:34:07.425003",
+    "attention_score": 0.8627085103693605,
+    "emotion": "happy",
+    "emotion_confidence": 0.23630638420581818,
+    "stress_level": 0.1754755824804306
+  },
+  {
+    "timestamp": 1761671047.518085,
+    "datetime": "2025-10-28T22:34:07.518085",
+    "attention_score": 0.8630222988037834,
+    "emotion": "happy",
+    "emotion_confidence": 0.22465504705905914,
+    "stress_level": 0.17206217348575592
+  },
+  {
+    "timestamp": 1761671047.601095,
+    "datetime": "2025-10-28T22:34:07.601095",
+    "attention_score": 0.8636474010148688,
+    "emotion": "happy",
+    "emotion_confidence": 0.22465504705905914,
+    "stress_level": 0.17206217348575592
+  },
+  {
+    "timestamp": 1761671047.690401,
+    "datetime": "2025-10-28T22:34:07.690401",
+    "attention_score": 0.8630222988037834,
+    "emotion": "angry",
+    "emotion_confidence": 0.22115130722522736,
+    "stress_level": 0.16989918053150177
+  },
+  {
+    "timestamp": 1761671047.772462,
+    "datetime": "2025-10-28T22:34:07.772462",
+    "attention_score": 0.8636474010148688,
+    "emotion": "happy",
+    "emotion_confidence": 0.22292406857013702,
+    "stress_level": 0.1680617332458496
+  },
+  {
+    "timestamp": 1761671047.864279,
+    "datetime": "2025-10-28T22:34:07.864279",
+    "attention_score": 0.86458345512826,
+    "emotion": "happy",
+    "emotion_confidence": 0.22266988456249237,
+    "stress_level": 0.1697913408279419
+  },
+  {
+    "timestamp": 1761671047.947279,
+    "datetime": "2025-10-28T22:34:07.947279",
+    "attention_score": 0.86458345512826,
+    "emotion": "happy",
+    "emotion_confidence": 0.22266988456249237,
+    "stress_level": 0.1697913408279419
+  },
+  {
+    "timestamp": 1761671048.032609,
+    "datetime": "2025-10-28T22:34:08.032609",
+    "attention_score": 0.8639540518795212,
+    "emotion": "happy",
+    "emotion_confidence": 0.22261390089988708,
+    "stress_level": 0.16980551183223724
+  },
+  {
+    "timestamp": 1761671048.119013,
+    "datetime": "2025-10-28T22:34:08.119013",
+    "attention_score": 0.8636474010148688,
+    "emotion": "angry",
+    "emotion_confidence": 0.22073054313659668,
+    "stress_level": 0.1702878326177597
+  },
+  {
+    "timestamp": 1761671048.224332,
+    "datetime": "2025-10-28T22:34:08.224332",
+    "attention_score": 0.8633182871595472,
+    "emotion": "happy",
+    "emotion_confidence": 0.2194625437259674,
+    "stress_level": 0.1781235784292221
+  },
+  {
+    "timestamp": 1761671048.31826,
+    "datetime": "2025-10-28T22:34:08.318260",
+    "attention_score": 0.8633182871595472,
+    "emotion": "angry",
+    "emotion_confidence": 0.23325859010219574,
+    "stress_level": 0.16869454085826874
+  },
+  {
+    "timestamp": 1761671048.418171,
+    "datetime": "2025-10-28T22:34:08.418171",
+    "attention_score": 0.8623908387860749,
+    "emotion": "angry",
+    "emotion_confidence": 0.23325859010219574,
+    "stress_level": 0.16869454085826874
+  },
+  {
+    "timestamp": 1761671048.510616,
+    "datetime": "2025-10-28T22:34:08.510616",
+    "attention_score": 0.8638564062285705,
+    "emotion": "happy",
+    "emotion_confidence": 0.2352856695652008,
+    "stress_level": 0.164620503783226
+  },
+  {
+    "timestamp": 1761671048.597221,
+    "datetime": "2025-10-28T22:34:08.597221",
+    "attention_score": 0.8622851110990536,
+    "emotion": "happy",
+    "emotion_confidence": 0.2476472556591034,
+    "stress_level": 0.16484776139259338
+  },
+  {
+    "timestamp": 1761671048.68571,
+    "datetime": "2025-10-28T22:34:08.685710",
+    "attention_score": 0.8631933389779576,
+    "emotion": "happy",
+    "emotion_confidence": 0.2450692057609558,
+    "stress_level": 0.16718992590904236
+  },
+  {
+    "timestamp": 1761671048.780715,
+    "datetime": "2025-10-28T22:34:08.780715",
+    "attention_score": 0.8616204269048354,
+    "emotion": "happy",
+    "emotion_confidence": 0.23364877700805664,
+    "stress_level": 0.16268274188041687
+  },
+  {
+    "timestamp": 1761671048.873695,
+    "datetime": "2025-10-28T22:34:08.873695",
+    "attention_score": 0.8616204269048354,
+    "emotion": "happy",
+    "emotion_confidence": 0.23364877700805664,
+    "stress_level": 0.16268274188041687
+  },
+  {
+    "timestamp": 1761671048.957936,
+    "datetime": "2025-10-28T22:34:08.957936",
+    "attention_score": 0.8622851110990536,
+    "emotion": "happy",
+    "emotion_confidence": 0.22480712831020355,
+    "stress_level": 0.15721456706523895
+  },
+  {
+    "timestamp": 1761671049.028471,
+    "datetime": "2025-10-28T22:34:09.028471",
+    "attention_score": 0.8609498179612842,
+    "emotion": "angry",
+    "emotion_confidence": 0.22105708718299866,
+    "stress_level": 0.15959309041500092
+  },
+  {
+    "timestamp": 1761671049.135011,
+    "datetime": "2025-10-28T22:34:09.135011",
+    "attention_score": 0.8600471061392441,
+    "emotion": "happy",
+    "emotion_confidence": 0.22878924012184143,
+    "stress_level": 0.16345544159412384
+  },
+  {
+    "timestamp": 1761671049.217109,
+    "datetime": "2025-10-28T22:34:09.217109",
+    "attention_score": 0.8609498179612842,
+    "emotion": "happy",
+    "emotion_confidence": 0.22878924012184143,
+    "stress_level": 0.16345544159412384
+  },
+  {
+    "timestamp": 1761671049.306531,
+    "datetime": "2025-10-28T22:34:09.306531",
+    "attention_score": 0.8600471061392441,
+    "emotion": "happy",
+    "emotion_confidence": 0.22447822988033295,
+    "stress_level": 0.1576600819826126
+  },
+  {
+    "timestamp": 1761671049.394606,
+    "datetime": "2025-10-28T22:34:09.394606",
+    "attention_score": 0.8604591793595867,
+    "emotion": "angry",
+    "emotion_confidence": 0.22939030826091766,
+    "stress_level": 0.16453373432159424
+  },
+  {
+    "timestamp": 1761671049.481274,
+    "datetime": "2025-10-28T22:34:09.481274",
+    "attention_score": 0.8633182871595472,
+    "emotion": "angry",
+    "emotion_confidence": 0.23689550161361694,
+    "stress_level": 0.1689702570438385
+  },
+  {
+    "timestamp": 1761671049.569524,
+    "datetime": "2025-10-28T22:34:09.569524",
+    "attention_score": 0.8610727483536798,
+    "emotion": "happy",
+    "emotion_confidence": 0.27320724725723267,
+    "stress_level": 0.16778531670570374
+  },
+  {
+    "timestamp": 1761671049.656726,
+    "datetime": "2025-10-28T22:34:09.656726",
+    "attention_score": 0.8610727483536798,
+    "emotion": "happy",
+    "emotion_confidence": 0.27320724725723267,
+    "stress_level": 0.16778531670570374
+  },
+  {
+    "timestamp": 1761671049.745035,
+    "datetime": "2025-10-28T22:34:09.745035",
+    "attention_score": 0.8601149467419767,
+    "emotion": "happy",
+    "emotion_confidence": 0.28164681792259216,
+    "stress_level": 0.16839371621608734
+  },
+  {
+    "timestamp": 1761671049.832718,
+    "datetime": "2025-10-28T22:34:09.832718",
+    "attention_score": 0.8618492671029212,
+    "emotion": "happy",
+    "emotion_confidence": 0.2901197671890259,
+    "stress_level": 0.1755106896162033
+  },
+  {
+    "timestamp": 1761671049.939022,
+    "datetime": "2025-10-28T22:34:09.939022",
+    "attention_score": 0.860309605734682,
+    "emotion": "happy",
+    "emotion_confidence": 0.30112722516059875,
+    "stress_level": 0.17157171666622162
+  },
+  {
+    "timestamp": 1761671050.029611,
+    "datetime": "2025-10-28T22:34:10.029611",
+    "attention_score": 0.8597354619834364,
+    "emotion": "happy",
+    "emotion_confidence": 0.30112722516059875,
+    "stress_level": 0.17157171666622162
+  },
+  {
+    "timestamp": 1761671050.115427,
+    "datetime": "2025-10-28T22:34:10.115427",
+    "attention_score": 0.860699739770523,
+    "emotion": "happy",
+    "emotion_confidence": 0.30505818128585815,
+    "stress_level": 0.17157313227653503
+  },
+  {
+    "timestamp": 1761671050.202093,
+    "datetime": "2025-10-28T22:34:10.202093",
+    "attention_score": 0.8616615902035881,
+    "emotion": "happy",
+    "emotion_confidence": 0.3091755211353302,
+    "stress_level": 0.16974619030952454
+  },
+  {
+    "timestamp": 1761671050.286897,
+    "datetime": "2025-10-28T22:34:10.286897",
+    "attention_score": 0.8622437614842798,
+    "emotion": "happy",
+    "emotion_confidence": 0.2992267310619354,
+    "stress_level": 0.16627521812915802
+  },
+  {
+    "timestamp": 1761671050.37777,
+    "datetime": "2025-10-28T22:34:10.377770",
+    "attention_score": 0.8622437614842798,
+    "emotion": "happy",
+    "emotion_confidence": 0.2973313331604004,
+    "stress_level": 0.1617901623249054
+  },
+  {
+    "timestamp": 1761671050.460607,
+    "datetime": "2025-10-28T22:34:10.460607",
+    "attention_score": 0.8622437614842798,
+    "emotion": "happy",
+    "emotion_confidence": 0.2973313331604004,
+    "stress_level": 0.1617901623249054
+  },
+  {
+    "timestamp": 1761671050.550717,
+    "datetime": "2025-10-28T22:34:10.550717",
+    "attention_score": 0.860309605734682,
+    "emotion": "happy",
+    "emotion_confidence": 0.30529844760894775,
+    "stress_level": 0.16624361276626587
+  },
+  {
+    "timestamp": 1761671050.645815,
+    "datetime": "2025-10-28T22:34:10.645815",
+    "attention_score": 0.860309605734682,
+    "emotion": "happy",
+    "emotion_confidence": 0.29388588666915894,
+    "stress_level": 0.1716686189174652
+  },
+  {
+    "timestamp": 1761671050.735937,
+    "datetime": "2025-10-28T22:34:10.735937",
+    "attention_score": 0.860699739770523,
+    "emotion": "happy",
+    "emotion_confidence": 0.30636104941368103,
+    "stress_level": 0.17320616543293
+  },
+  {
+    "timestamp": 1761671050.827477,
+    "datetime": "2025-10-28T22:34:10.827477",
+    "attention_score": 0.8597354619834364,
+    "emotion": "happy",
+    "emotion_confidence": 0.30636104941368103,
+    "stress_level": 0.17320616543293
+  },
+  {
+    "timestamp": 1761671050.915206,
+    "datetime": "2025-10-28T22:34:10.915206",
+    "attention_score": 0.860699739770523,
+    "emotion": "happy",
+    "emotion_confidence": 0.295667827129364,
+    "stress_level": 0.17390292882919312
+  },
+  {
+    "timestamp": 1761671051.010893,
+    "datetime": "2025-10-28T22:34:11.010893",
+    "attention_score": 0.8601149467419767,
+    "emotion": "happy",
+    "emotion_confidence": 0.2864414155483246,
+    "stress_level": 0.17402653396129608
+  },
+  {
+    "timestamp": 1761671051.129553,
+    "datetime": "2025-10-28T22:34:11.129553",
+    "attention_score": 0.8604773203919879,
+    "emotion": "happy",
+    "emotion_confidence": 0.24931594729423523,
+    "stress_level": 0.1715233474969864
+  },
+  {
+    "timestamp": 1761671051.227141,
+    "datetime": "2025-10-28T22:34:11.227141",
+    "attention_score": 0.8595235784909083,
+    "emotion": "happy",
+    "emotion_confidence": 0.24574005603790283,
+    "stress_level": 0.16708263754844666
+  },
+  {
+    "timestamp": 1761671051.296605,
+    "datetime": "2025-10-28T22:34:11.296605",
+    "attention_score": 0.8598753902770824,
+    "emotion": "angry",
+    "emotion_confidence": 0.22579501569271088,
+    "stress_level": 0.16474351286888123
+  },
+  {
+    "timestamp": 1761671051.408387,
+    "datetime": "2025-10-28T22:34:11.408387",
+    "attention_score": 0.8589257177051749,
+    "emotion": "angry",
+    "emotion_confidence": 0.22579501569271088,
+    "stress_level": 0.16474351286888123
+  },
+  {
+    "timestamp": 1761671051.501905,
+    "datetime": "2025-10-28T22:34:11.501905",
+    "attention_score": 0.8589257177051749,
+    "emotion": "angry",
+    "emotion_confidence": 0.22445377707481384,
+    "stress_level": 0.1630716174840927
+  },
+  {
+    "timestamp": 1761671051.589669,
+    "datetime": "2025-10-28T22:34:11.589669",
+    "attention_score": 0.8564224947981056,
+    "emotion": "angry",
+    "emotion_confidence": 0.2271188646554947,
+    "stress_level": 0.16395297646522522
+  },
+  {
+    "timestamp": 1761671051.680008,
+    "datetime": "2025-10-28T22:34:11.680008",
+    "attention_score": 0.8564224947981056,
+    "emotion": "angry",
+    "emotion_confidence": 0.2270997017621994,
+    "stress_level": 0.16353531181812286
+  },
+  {
+    "timestamp": 1761671051.769456,
+    "datetime": "2025-10-28T22:34:11.769456",
+    "attention_score": 0.8579734839897845,
+    "emotion": "angry",
+    "emotion_confidence": 0.23051752150058746,
+    "stress_level": 0.159837543964386
+  },
+  {
+    "timestamp": 1761671051.85183,
+    "datetime": "2025-10-28T22:34:11.851830",
+    "attention_score": 0.8579734839897845,
+    "emotion": "angry",
+    "emotion_confidence": 0.23051752150058746,
+    "stress_level": 0.159837543964386
+  },
+  {
+    "timestamp": 1761671051.94195,
+    "datetime": "2025-10-28T22:34:11.941950",
+    "attention_score": 0.8573732471623924,
+    "emotion": "angry",
+    "emotion_confidence": 0.22401119768619537,
+    "stress_level": 0.16508595645427704
+  },
+  {
+    "timestamp": 1761671052.030793,
+    "datetime": "2025-10-28T22:34:12.030793",
+    "attention_score": 0.8573732471623924,
+    "emotion": "angry",
+    "emotion_confidence": 0.231073260307312,
+    "stress_level": 0.15905353426933289
+  },
+  {
+    "timestamp": 1761671052.128525,
+    "datetime": "2025-10-28T22:34:12.128525",
+    "attention_score": 0.8567666894538843,
+    "emotion": "angry",
+    "emotion_confidence": 0.22301019728183746,
+    "stress_level": 0.1618838757276535
+  },
+  {
+    "timestamp": 1761671052.222109,
+    "datetime": "2025-10-28T22:34:12.222109",
+    "attention_score": 0.8573732471623924,
+    "emotion": "angry",
+    "emotion_confidence": 0.22301019728183746,
+    "stress_level": 0.1618838757276535
+  },
+  {
+    "timestamp": 1761671052.302264,
+    "datetime": "2025-10-28T22:34:12.302264",
+    "attention_score": 0.8564224947981056,
+    "emotion": "angry",
+    "emotion_confidence": 0.2448185235261917,
+    "stress_level": 0.15215323865413666
+  },
+  {
+    "timestamp": 1761671052.384504,
+    "datetime": "2025-10-28T22:34:12.384504",
+    "attention_score": 0.8554692398656951,
+    "emotion": "angry",
+    "emotion_confidence": 0.25363418459892273,
+    "stress_level": 0.1495688408613205
+  },
+  {
+    "timestamp": 1761671052.478829,
+    "datetime": "2025-10-28T22:34:12.478829",
+    "attention_score": 0.8554692398656951,
+    "emotion": "angry",
+    "emotion_confidence": 0.252445250749588,
+    "stress_level": 0.148869588971138
+  },
+  {
+    "timestamp": 1761671052.577428,
+    "datetime": "2025-10-28T22:34:12.577428",
+    "attention_score": 0.8548706396003896,
+    "emotion": "angry",
+    "emotion_confidence": 0.24799783527851105,
+    "stress_level": 0.15261214971542358
+  },
+  {
+    "timestamp": 1761671052.656328,
+    "datetime": "2025-10-28T22:34:12.656328",
+    "attention_score": 0.8552111451112345,
+    "emotion": "angry",
+    "emotion_confidence": 0.24799783527851105,
+    "stress_level": 0.15261214971542358
+  },
+  {
+    "timestamp": 1761671052.745702,
+    "datetime": "2025-10-28T22:34:12.745702",
+    "attention_score": 0.8539188474682651,
+    "emotion": "angry",
+    "emotion_confidence": 0.24773891270160675,
+    "stress_level": 0.15272291004657745
+  },
+  {
+    "timestamp": 1761671052.826287,
+    "datetime": "2025-10-28T22:34:12.826287",
+    "attention_score": 0.8545135315570551,
+    "emotion": "angry",
+    "emotion_confidence": 0.24854162335395813,
+    "stress_level": 0.15488947927951813
+  },
+  {
+    "timestamp": 1761671052.9157,
+    "datetime": "2025-10-28T22:34:12.915700",
+    "attention_score": 0.8548706396003896,
+    "emotion": "angry",
+    "emotion_confidence": 0.2500540614128113,
+    "stress_level": 0.15204642713069916
+  },
+  {
+    "timestamp": 1761671053.006613,
+    "datetime": "2025-10-28T22:34:13.006613",
+    "attention_score": 0.8558199367977667,
+    "emotion": "angry",
+    "emotion_confidence": 0.2500540614128113,
+    "stress_level": 0.15204642713069916
+  },
+  {
+    "timestamp": 1761671053.112131,
+    "datetime": "2025-10-28T22:34:13.112131",
+    "attention_score": 0.8536548386519048,
+    "emotion": "angry",
+    "emotion_confidence": 0.2510429620742798,
+    "stress_level": 0.14906300604343414
+  },
+  {
+    "timestamp": 1761671053.209628,
+    "datetime": "2025-10-28T22:34:13.209628",
+    "attention_score": 0.8558199367977667,
+    "emotion": "angry",
+    "emotion_confidence": 0.2524685561656952,
+    "stress_level": 0.15150052309036255
+  },
+  {
+    "timestamp": 1761671053.297294,
+    "datetime": "2025-10-28T22:34:13.297294",
+    "attention_score": 0.8542658134650624,
+    "emotion": "angry",
+    "emotion_confidence": 0.24794994294643402,
+    "stress_level": 0.14935101568698883
+  },
+  {
+    "timestamp": 1761671053.403176,
+    "datetime": "2025-10-28T22:34:13.403176",
+    "attention_score": 0.8561538908242562,
+    "emotion": "angry",
+    "emotion_confidence": 0.24886387586593628,
+    "stress_level": 0.15135455131530762
+  },
+  {
+    "timestamp": 1761671053.501443,
+    "datetime": "2025-10-28T22:34:13.501443",
+    "attention_score": 0.8545961980380156,
+    "emotion": "angry",
+    "emotion_confidence": 0.24886387586593628,
+    "stress_level": 0.15135455131530762
+  },
+  {
+    "timestamp": 1761671053.589136,
+    "datetime": "2025-10-28T22:34:13.589136",
+    "attention_score": 0.8545961980380156,
+    "emotion": "angry",
+    "emotion_confidence": 0.25181159377098083,
+    "stress_level": 0.15014228224754333
+  },
+  {
+    "timestamp": 1761671053.671569,
+    "datetime": "2025-10-28T22:34:13.671569",
+    "attention_score": 0.8555349306925719,
+    "emotion": "angry",
+    "emotion_confidence": 0.24231335520744324,
+    "stress_level": 0.1517641395330429
+  },
+  {
+    "timestamp": 1761671053.773494,
+    "datetime": "2025-10-28T22:34:13.773494",
+    "attention_score": 0.8545961980380156,
+    "emotion": "angry",
+    "emotion_confidence": 0.23687805235385895,
+    "stress_level": 0.15322810411453247
+  },
+  {
+    "timestamp": 1761671053.862774,
+    "datetime": "2025-10-28T22:34:13.862774",
+    "attention_score": 0.8570939994261962,
+    "emotion": "angry",
+    "emotion_confidence": 0.249566912651062,
+    "stress_level": 0.15188148617744446
+  },
+  {
+    "timestamp": 1761671053.955853,
+    "datetime": "2025-10-28T22:34:13.955853",
+    "attention_score": 0.8564709850761875,
+    "emotion": "angry",
+    "emotion_confidence": 0.249566912651062,
+    "stress_level": 0.15188148617744446
+  },
+  {
+    "timestamp": 1761671054.050061,
+    "datetime": "2025-10-28T22:34:14.050061",
+    "attention_score": 0.8580314185286054,
+    "emotion": "angry",
+    "emotion_confidence": 0.24429145455360413,
+    "stress_level": 0.15366819500923157
+  },
+  {
+    "timestamp": 1761671054.143177,
+    "datetime": "2025-10-28T22:34:14.143177",
+    "attention_score": 0.8589660945020666,
+    "emotion": "angry",
+    "emotion_confidence": 0.2476661503314972,
+    "stress_level": 0.15017984807491302
+  },
+  {
+    "timestamp": 1761671054.23058,
+    "datetime": "2025-10-28T22:34:14.230580",
+    "attention_score": 0.8598979724450785,
+    "emotion": "angry",
+    "emotion_confidence": 0.24403537809848785,
+    "stress_level": 0.15315137803554535
+  },
+  {
+    "timestamp": 1761671054.319078,
+    "datetime": "2025-10-28T22:34:14.319078",
+    "attention_score": 0.8589660945020666,
+    "emotion": "angry",
+    "emotion_confidence": 0.24411281943321228,
+    "stress_level": 0.15276236832141876
+  },
+  {
+    "timestamp": 1761671054.414857,
+    "datetime": "2025-10-28T22:34:14.414857",
+    "attention_score": 0.8589660945020666,
+    "emotion": "angry",
+    "emotion_confidence": 0.24411281943321228,
+    "stress_level": 0.15276236832141876
+  },
+  {
+    "timestamp": 1761671054.495094,
+    "datetime": "2025-10-28T22:34:14.495094",
+    "attention_score": 0.8598979724450785,
+    "emotion": "angry",
+    "emotion_confidence": 0.23748500645160675,
+    "stress_level": 0.15336638689041138
+  },
+  {
+    "timestamp": 1761671054.575374,
+    "datetime": "2025-10-28T22:34:14.575374",
+    "attention_score": 0.857697505292423,
+    "emotion": "angry",
+    "emotion_confidence": 0.2429261952638626,
+    "stress_level": 0.15477491915225983
+  },
+  {
+    "timestamp": 1761671054.654066,
+    "datetime": "2025-10-28T22:34:14.654066",
+    "attention_score": 0.857697505292423,
+    "emotion": "angry",
+    "emotion_confidence": 0.24558822810649872,
+    "stress_level": 0.15770621597766876
+  },
+  {
+    "timestamp": 1761671054.751265,
+    "datetime": "2025-10-28T22:34:14.751265",
+    "attention_score": 0.857697505292423,
+    "emotion": "angry",
+    "emotion_confidence": 0.24558822810649872,
+    "stress_level": 0.15770621597766876
+  },
+  {
+    "timestamp": 1761671054.843108,
+    "datetime": "2025-10-28T22:34:14.843108",
+    "attention_score": 0.8552111451112345,
+    "emotion": "angry",
+    "emotion_confidence": 0.24778689444065094,
+    "stress_level": 0.15321743488311768
+  },
+  {
+    "timestamp": 1761671054.927036,
+    "datetime": "2025-10-28T22:34:14.927036",
+    "attention_score": 0.8545961980380156,
+    "emotion": "angry",
+    "emotion_confidence": 0.24371466040611267,
+    "stress_level": 0.1577494591474533
+  },
+  {
+    "timestamp": 1761671055.015468,
+    "datetime": "2025-10-28T22:34:15.015468",
+    "attention_score": 0.8545961980380156,
+    "emotion": "angry",
+    "emotion_confidence": 0.24231769144535065,
+    "stress_level": 0.1572636514902115
+  },
+  {
+    "timestamp": 1761671055.109319,
+    "datetime": "2025-10-28T22:34:15.109319",
+    "attention_score": 0.8545961980380156,
+    "emotion": "angry",
+    "emotion_confidence": 0.23900730907917023,
+    "stress_level": 0.1600669026374817
+  },
+  {
+    "timestamp": 1761671055.205841,
+    "datetime": "2025-10-28T22:34:15.205841",
+    "attention_score": 0.8545961980380156,
+    "emotion": "angry",
+    "emotion_confidence": 0.23900730907917023,
+    "stress_level": 0.1600669026374817
+  },
+  {
+    "timestamp": 1761671055.302557,
+    "datetime": "2025-10-28T22:34:15.302557",
+    "attention_score": 0.8539751733437084,
+    "emotion": "angry",
+    "emotion_confidence": 0.2463342696428299,
+    "stress_level": 0.1565047949552536
+  },
+  {
+    "timestamp": 1761671055.406625,
+    "datetime": "2025-10-28T22:34:15.406625",
+    "attention_score": 0.8520977941340968,
+    "emotion": "angry",
+    "emotion_confidence": 0.23902499675750732,
+    "stress_level": 0.16110235452651978
+  },
+  {
+    "timestamp": 1761671055.495034,
+    "datetime": "2025-10-28T22:34:15.495034",
+    "attention_score": 0.8520977941340968,
+    "emotion": "angry",
+    "emotion_confidence": 0.25144726037979126,
+    "stress_level": 0.1527339518070221
+  },
+  {
+    "timestamp": 1761671055.580086,
+    "datetime": "2025-10-28T22:34:15.580086",
+    "attention_score": 0.8549098879144413,
+    "emotion": "angry",
+    "emotion_confidence": 0.2534745931625366,
+    "stress_level": 0.15154670178890228
+  },
+  {
+    "timestamp": 1761671055.670381,
+    "datetime": "2025-10-28T22:34:15.670381",
+    "attention_score": 0.8549098879144413,
+    "emotion": "angry",
+    "emotion_confidence": 0.2534745931625366,
+    "stress_level": 0.15154670178890228
+  },
+  {
+    "timestamp": 1761671055.771157,
+    "datetime": "2025-10-28T22:34:15.771157",
+    "attention_score": 0.8505400346246527,
+    "emotion": "angry",
+    "emotion_confidence": 0.2524716258049011,
+    "stress_level": 0.15422768890857697
+  },
+  {
+    "timestamp": 1761671055.853319,
+    "datetime": "2025-10-28T22:34:15.853319",
+    "attention_score": 0.8486550917605749,
+    "emotion": "angry",
+    "emotion_confidence": 0.24236644804477692,
+    "stress_level": 0.1619887501001358
+  },
+  {
+    "timestamp": 1761671055.924467,
+    "datetime": "2025-10-28T22:34:15.924467",
+    "attention_score": 0.8461544504218598,
+    "emotion": "angry",
+    "emotion_confidence": 0.24591496586799622,
+    "stress_level": 0.1567637026309967
+  },
+  {
+    "timestamp": 1761671056.035578,
+    "datetime": "2025-10-28T22:34:16.035578",
+    "attention_score": 0.8470992969277119,
+    "emotion": "angry",
+    "emotion_confidence": 0.24591496586799622,
+    "stress_level": 0.1567637026309967
+  },
+  {
+    "timestamp": 1761671056.119032,
+    "datetime": "2025-10-28T22:34:16.119032",
+    "attention_score": 0.8470992969277119,
+    "emotion": "angry",
+    "emotion_confidence": 0.24885398149490356,
+    "stress_level": 0.15698005259037018
+  },
+  {
+    "timestamp": 1761671056.206248,
+    "datetime": "2025-10-28T22:34:16.206248",
+    "attention_score": 0.8477089033298401,
+    "emotion": "angry",
+    "emotion_confidence": 0.24883310496807098,
+    "stress_level": 0.1551612764596939
+  },
+  {
+    "timestamp": 1761671056.294607,
+    "datetime": "2025-10-28T22:34:16.294607",
+    "attention_score": 0.8461544504218598,
+    "emotion": "angry",
+    "emotion_confidence": 0.24783939123153687,
+    "stress_level": 0.15642644464969635
+  },
+  {
+    "timestamp": 1761671056.382,
+    "datetime": "2025-10-28T22:34:16.382000",
+    "attention_score": 0.8480416895164993,
+    "emotion": "angry",
+    "emotion_confidence": 0.24931156635284424,
+    "stress_level": 0.15720021724700928
+  },
+  {
+    "timestamp": 1761671056.464045,
+    "datetime": "2025-10-28T22:34:16.464045",
+    "attention_score": 0.8470992969277119,
+    "emotion": "angry",
+    "emotion_confidence": 0.24931156635284424,
+    "stress_level": 0.15720021724700928
+  }
+]
