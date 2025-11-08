@@ -2,6 +2,7 @@
 data/
 *.csv
 *.h5
+*.pth
 *.pkl
 *.npy
 
