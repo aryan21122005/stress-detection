@@ -9,16 +9,21 @@ class MultiHeadCNN(nn.Module):
         if pretrained:
             try:
                 base = models.resnet18(weights=models.ResNet18_Weights.DEFAULT)
+                _pretrained_src = "ResNet18_Weights.DEFAULT"
             except Exception:
                 try:
                     base = models.resnet18(pretrained=True)
+                    _pretrained_src = "pretrained=True"
                 except Exception:
                     base = models.resnet18(pretrained=False)
+                    _pretrained_src = "pretrained=False"
         else:
             try:
                 base = models.resnet18(weights=None)
+                _pretrained_src = "weights=None"
             except Exception:
                 base = models.resnet18(pretrained=False)
+                _pretrained_src = "pretrained=False"
         self.backbone = nn.Sequential(*list(base.children())[:-1])
         self.fc = nn.Linear(512, 256)
         self.act = nn.ReLU(inplace=True)
@@ -26,6 +31,7 @@ class MultiHeadCNN(nn.Module):
         self.emotion_head = nn.Linear(256, num_emotions)
         self.engagement_head = nn.Linear(256, num_engagement)
         self.stress_head = nn.Linear(256, num_stress)
+        print(f"[MultiHeadCNN] ResNet18 base init: {_pretrained_src}")
 
     def forward(self, x):
         x = self.backbone(x)

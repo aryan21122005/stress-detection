@@ -33,7 +33,7 @@ def main():
     p = argparse.ArgumentParser()
     p.add_argument("--weights", type=str, default=None)
     p.add_argument("--camera-index", type=int, default=0)
-    p.add_argument("--image-size", type=int, default=224)
+    p.add_argument("--image-size", type=int, default=224, help="Input image size (224x224 is recommended for better accuracy)")
     args = p.parse_args()
 
     device = "cuda" if torch.cuda.is_available() else "cpu"
@@ -85,13 +85,38 @@ def main():
         rgb = cv2.cvtColor(face, cv2.COLOR_BGR2RGB)
         im = Image.fromarray(rgb)
         x = tfm(im).unsqueeze(0).to(device)
+        # Get model predictions
         with torch.no_grad():
             emo_logits, _, stress_logits = model(x)
-            emo_probs = softmax_probs(emo_logits)
-            stress_probs = softmax_probs(stress_logits)
+            probs = torch.softmax(emo_logits, dim=1)
+            pred = torch.argmax(probs, dim=1).item()
+            confidence = probs[0][pred].item()
+        # Get emotion predictions with confidence
+        emo_probs = softmax_probs(emo_logits)
         emo_label, emo_conf = top1_label(emo_probs, EMOTION_LABELS)
         emo_conf_pct = int(round(max(0.0, min(1.0, emo_conf)) * 100))
-        stress_score = stress_score_from_frustration(stress_probs)
+        
+        # Get stress predictions
+        stress_probs = softmax_probs(stress_logits)
+        
+        # Adjust stress based on detected emotion
+        if emo_conf > 0.6:  # Only adjust if confident about emotion
+            if emo_label in ['happy', 'surprise']:
+                # Significantly reduce stress for positive emotions
+                adjustment = torch.tensor([2.0, 0.5, 0.2, 0.1], 
+                                       device=stress_probs.device)
+                stress_probs = stress_probs * adjustment
+            elif emo_label in ['sad', 'angry', 'disgust', 'fear']:
+                # Increase stress for negative emotions
+                adjustment = torch.tensor([0.3, 0.8, 1.5, 2.0],
+                                       device=stress_probs.device)
+                stress_probs = stress_probs * adjustment
+            
+            # Renormalize to ensure probabilities sum to 1
+            stress_probs = stress_probs / stress_probs.sum()
+        
+        # Calculate final stress score with confidence
+        stress_score = stress_score_from_frustration(stress_probs, emotion_confidence=emo_conf)
         stress_pct = int(round(max(0.0, min(1.0, stress_score)) * 100))
         attention_score, debug_info = gaze_tracker.estimate_screen_attention(frame)
         focus_pct = int(round(attention_score * 100))
@@ -117,9 +142,68 @@ def main():
             cv2.putText(disp, "Eyes Closed!", (x0, y0 - 10), 
                        cv2.FONT_HERSHEY_SIMPLEX, 0.8, (0, 0, 255), 2)
         cv2.putText(disp, f"Emotion: {emo_label} ({emo_conf_pct}%)", (10, 30), cv2.FONT_HERSHEY_SIMPLEX, 0.8, (255, 255, 255), 2, cv2.LINE_AA)
-        cv2.putText(disp, f"Stress: {stress_pct}/100", (10, 60), cv2.FONT_HERSHEY_SIMPLEX, 0.8, (0, 200, 255), 2, cv2.LINE_AA)
-        focus_color = (0, 255, 0) if focus_pct > 70 else (0, 200, 255) if focus_pct > 40 else (0, 100, 255)
-        cv2.putText(disp, f"Attention: {focus_pct}/100", (10, 90), cv2.FONT_HERSHEY_SIMPLEX, 0.8, focus_color, 2, cv2.LINE_AA)
+        # Draw stress level with color coding and progress bar
+        stress_color = (0, 255, 0)  # Green
+        if stress_pct > 70:
+            stress_color = (0, 0, 255)  # Red for high stress
+        elif stress_pct > 40:
+            stress_color = (0, 165, 255)  # Orange for medium stress
+            
+        # Draw stress bar with border and filled progress
+        bar_width = 200
+        bar_height = 20
+        bar_x, bar_y = 10, 60
+        
+        # Background
+        cv2.rectangle(disp, (bar_x, bar_y), (bar_x + bar_width, bar_y + bar_height), (50, 50, 50), -1)
+        # Progress fill
+        fill_width = int(bar_width * stress_pct / 100)
+        cv2.rectangle(disp, (bar_x, bar_y), (bar_x + fill_width, bar_y + bar_height), stress_color, -1)
+        # Border
+        cv2.rectangle(disp, (bar_x, bar_y), (bar_x + bar_width, bar_y + bar_height), (200, 200, 200), 1)
+        
+        # Text with colored background for better visibility
+        text = f"Stress: {stress_pct}%"
+        text_size = cv2.getTextSize(text, cv2.FONT_HERSHEY_SIMPLEX, 0.7, 2)[0]
+        text_x = bar_x + bar_width + 10
+        text_y = bar_y + bar_height - 5
+        
+        # Text background
+        cv2.rectangle(disp, 
+                     (text_x - 5, text_y - text_size[1] - 5),
+                     (text_x + text_size[0] + 5, text_y + 5),
+                     (40, 40, 40), -1)
+        # Text
+        cv2.putText(disp, text, (text_x, text_y), 
+                   cv2.FONT_HERSHEY_SIMPLEX, 0.7, stress_color, 2, cv2.LINE_AA)
+        # Draw attention score with progress bar
+        attention_color = (0, 255, 0) if focus_pct > 70 else (0, 200, 255) if focus_pct > 40 else (0, 100, 255)
+        
+        # Draw attention bar with border and filled progress
+        bar_x, bar_y = 10, 90
+        fill_width = int(bar_width * focus_pct / 100)
+        
+        # Background
+        cv2.rectangle(disp, (bar_x, bar_y), (bar_x + bar_width, bar_y + bar_height), (50, 50, 50), -1)
+        # Progress fill
+        cv2.rectangle(disp, (bar_x, bar_y), (bar_x + fill_width, bar_y + bar_height), attention_color, -1)
+        # Border
+        cv2.rectangle(disp, (bar_x, bar_y), (bar_x + bar_width, bar_y + bar_height), (200, 200, 200), 1)
+        
+        # Text with colored background for better visibility
+        text = f"Attention: {focus_pct}%"
+        text_x = bar_x + bar_width + 10
+        text_y = bar_y + bar_height - 5
+        
+        # Text background
+        text_size = cv2.getTextSize(text, cv2.FONT_HERSHEY_SIMPLEX, 0.7, 2)[0]
+        cv2.rectangle(disp, 
+                     (text_x - 5, text_y - text_size[1] - 5),
+                     (text_x + text_size[0] + 5, text_y + 5),
+                     (40, 40, 40), -1)
+        # Text
+        cv2.putText(disp, text, (text_x, text_y), 
+                   cv2.FONT_HERSHEY_SIMPLEX, 0.7, attention_color, 2, cv2.LINE_AA)
         if tips:
             cv2.putText(disp, f"Tip: {tips[0]}", (10, 120), cv2.FONT_HERSHEY_SIMPLEX, 0.7, (255, 255, 0), 2, cv2.LINE_AA)
         cv2.imshow("Stress Detection", disp)

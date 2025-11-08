@@ -28,7 +28,17 @@ def train(args):
             pass
     model.to(device)
 
-    ce = nn.CrossEntropyLoss()
+    # Class-weighted losses to address imbalance in DAiSEE
+    import torch as _torch
+    e_labels = _torch.tensor(train_ds.df["engagement"].values, dtype=_torch.long)
+    f_labels = _torch.tensor(train_ds.df["frustration"].values, dtype=_torch.long)
+    e_counts = _torch.bincount(e_labels, minlength=4).float()
+    f_counts = _torch.bincount(f_labels, minlength=4).float()
+    e_weights = (e_counts.sum() / e_counts.clamp(min=1)).to(device)
+    f_weights = (f_counts.sum() / f_counts.clamp(min=1)).to(device)
+
+    ce_eng = nn.CrossEntropyLoss(weight=e_weights, label_smoothing=0.05)
+    ce_str = nn.CrossEntropyLoss(weight=f_weights, label_smoothing=0.05)
     optimizer = optim.Adam(model.parameters(), lr=args.lr)
     best_metric = 0.0
     os.makedirs(args.out, exist_ok=True)
@@ -41,7 +51,7 @@ def train(args):
             e = e.to(device)
             f = f.to(device)
             _, eng_logits, stress_logits = model(x)
-            loss = ce(eng_logits, e) + ce(stress_logits, f)
+            loss = ce_eng(eng_logits, e) + ce_str(stress_logits, f)
             optimizer.zero_grad()
             loss.backward()
             optimizer.step()
@@ -68,11 +78,16 @@ def train(args):
             avg_acc = 0.5 * (eng_acc + str_acc)
             if avg_acc > best_metric:
                 best_metric = avg_acc
-                torch.save({
+                ckpt = {
                     "model_state_dict": model.state_dict(),
                     "best_avg_acc": best_metric,
                     "epoch": epoch + 1,
-                }, os.path.join(args.out, "daisee_best.pth"))
+                }
+                # Update rolling best
+                torch.save(ckpt, os.path.join(args.out, "daisee_best.pth"))
+                # Also save a uniquely named snapshot for this improvement
+                unique_name = f"daisee_best_e{epoch+1}_avg{avg_acc:.4f}_eng{eng_acc:.4f}_str{str_acc:.4f}.pth"
+                torch.save(ckpt, os.path.join(args.out, unique_name))
 
 
 def main():
@@ -80,7 +95,7 @@ def main():
     p.add_argument("--manifest", type=str, required=True)
     p.add_argument("--val-manifest", dest="val_manifest", type=str, default=None)
     p.add_argument("--out", type=str, default="checkpoints")
-    p.add_argument("--epochs", type=int, default=5)
+    p.add_argument("--epochs", type=int, default=15)
     p.add_argument("--batch-size", type=int, default=32)
     p.add_argument("--lr", type=float, default=1e-3)
     p.add_argument("--image-size", type=int, default=224)

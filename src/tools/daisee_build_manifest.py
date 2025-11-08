@@ -7,6 +7,7 @@ import pandas as pd
 from tqdm import tqdm
 
 from src.utils.face_detection import detect_largest_face_bgr, crop_face_square
+from src.training.train_daisee import train as train_daisee
 
 
 def index_videos(dataset_root):
@@ -108,6 +109,14 @@ def main():
     ap.add_argument("--frames-dir", type=str, default=None)
     ap.add_argument("--frames-per-clip", type=int, default=3)
     ap.add_argument("--face-padding", type=float, default=0.25)
+    ap.add_argument("--auto-train", action="store_true")
+    ap.add_argument("--auto-train-out", type=str, default="checkpoints")
+    ap.add_argument("--auto-train-batch-size", type=int, default=32)
+    ap.add_argument("--auto-train-epochs", type=int, default=15)
+    ap.add_argument("--auto-train-lr", type=float, default=1e-3)
+    ap.add_argument("--auto-train-image-size", type=int, default=224)
+    ap.add_argument("--auto-train-workers", type=int, default=0)
+    ap.add_argument("--fer-ckpt", type=str, default=None)
     args = ap.parse_args()
 
     labels_dir = osp.join(args.root, "labels")
@@ -128,6 +137,24 @@ def main():
     n_val = process_split("val", val_labels, video_map, frames_dir, out_val, frames_per_clip=args.frames_per_clip, face_padding=args.face_padding)
 
     print(f"Saved rows -> train: {n_train}, val: {n_val}")
+
+    if args.auto_train and n_train > 0 and n_val > 0:
+        weights = args.fer_ckpt
+        if not weights:
+            guess = osp.join(args.auto_train_out, "fer2013_best.pth")
+            weights = guess if osp.exists(guess) else None
+        daisee_args = argparse.Namespace(
+            manifest=out_train,
+            val_manifest=out_val,
+            out=args.auto_train_out,
+            epochs=args.auto_train_epochs,
+            batch_size=args.auto_train_batch_size,
+            lr=args.auto_train_lr,
+            image_size=args.auto_train_image_size,
+            workers=args.auto_train_workers,
+            weights=weights,
+        )
+        train_daisee(daisee_args)
 
 
 if __name__ == "__main__":
