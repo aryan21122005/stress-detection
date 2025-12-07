@@ -84,7 +84,8 @@ async function saveMetric(row){
 chrome.runtime.onMessage.addListener((msg, sender, sendResponse) => {
   if (msg?.type === 'SET_ACTIVE') {
     chrome.storage.local.set({ overlayActive: !!msg.active }, () => {
-      if (sender.tab?.id != null) chrome.tabs.sendMessage(sender.tab.id, { type: 'OVERLAY_TOGGLE', active: !!msg.active });
+      const targetTabId = msg.tabId ?? sender.tab?.id;
+      if (targetTabId != null) chrome.tabs.sendMessage(targetTabId, { type: 'OVERLAY_TOGGLE', active: !!msg.active });
       sendResponse({ ok: true });
     });
     return true;
