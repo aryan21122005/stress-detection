@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Stress Overlay</title>
+    <style>
+      body { font-family: system-ui, sans-serif; margin: 12px; }
+      .row { display: flex; align-items: center; gap: 8px; margin-bottom: 8px; }
+      input { width: 260px; padding: 6px 8px; }
+      button { padding: 6px 10px; }
+      .muted { color: #666; font-size: 12px; }
+    </style>
+  </head>
+  <body>
+    <h3>Stress Monitor Overlay</h3>
+    <div class="row"><label for="inferBase">Infer URL:</label></div>
+    <div class="row">
+      <input id="inferBase" placeholder="http://127.0.0.1:5001" />
+      <button id="save">Save</button>
+    </div>
+
+    <hr />
+    <h4>Supabase (for saving metrics)</h4>
+    <div class="row"><input id="sbUrl" placeholder="https://xxxx.supabase.co" /></div>
+    <div class="row"><input id="sbAnon" placeholder="Anon Key" /></div>
+    <div class="row"><input id="email" placeholder="Email" /></div>
+    <div class="row"><input id="password" type="password" placeholder="Password" /></div>
+    <div class="row"><button id="login">Login</button><span id="loginStatus" class="muted"></span></div>
+
+    <div class="row"><input id="hostKey" placeholder="Host Key (e.g., KEY-ABC123)" /></div>
+    <div class="row"><input id="sessionName" placeholder="Session Name (optional)" /></div>
+    <div class="row"><button id="join">Join/Create Session</button><span id="joinStatus" class="muted"></span></div>
+
+    <hr />
+    <div class="row"><button id="toggle">Start Overlay</button></div>
+    <div class="muted">Overlay calls local inference. When logged in and joined, metrics are saved to Supabase even if the site is closed.</div>
+    <script src="popup.js"></script>
+  </body>
+</html>

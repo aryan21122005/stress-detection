@@ -1,0 +1,7 @@
+.stress-overlay-root{position:fixed;top:12px;right:12px;z-index:2147483647;font-family:system-ui,Segoe UI,Roboto,Arial,sans-serif}
+.stress-overlay-panel{background:rgba(20,20,20,.86);color:#fff;border:1px solid rgba(255,255,255,.12);border-radius:10px;backdrop-filter:blur(6px);padding:10px 12px;min-width:240px;box-shadow:0 10px 30px rgba(0,0,0,.28)}
+.stress-overlay-panel .row{display:flex;justify-content:space-between;align-items:center;margin:6px 0}
+.stress-overlay-panel .row.small{opacity:.8;font-size:12px}
+.stress-overlay-panel .header{gap:10px}
+.stress-overlay-panel button{background:#16a34a;border:none;color:#fff;padding:4px 8px;border-radius:6px;cursor:pointer}
+.stress-overlay-panel button:hover{background:#15803d}
