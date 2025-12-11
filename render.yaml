@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: stress-detection
+    env: node
+    buildCommand: cd website/meeting-zen-06 && npm install && npm run build
+    staticPublishPath: ./website/meeting-zen-06/dist
+    envVars:
+      - key: VITE_INFER_BASE
+        value: "https://stress-detection-1-jrfk.onrender.com"
+
+# Add this to your render.yaml
+    
