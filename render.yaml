@@ -1,12 +1,26 @@
 services:
+  # Backend API
+  - type: web
+    name: stress-detection-api
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn src.inference.infer_service:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: PYTHON_VERSION
+        value: "3.10"
+      - key: MONGO_URI
+        sync: false  # Set this in Render dashboard
+      - key: MONGO_DB
+        value: "stress_detection"
+
+  # Frontend
   - type: web
     name: stress-detection
     env: node
     buildCommand: cd website/meeting-zen-06 && npm install && npm run build
     staticPublishPath: ./website/meeting-zen-06/dist
     envVars:
+      - key: NODE_VERSION
+        value: 18.x
       - key: VITE_INFER_BASE
         value: "https://stress-detection-1-jrfk.onrender.com"
-
-# Add this to your render.yaml
-    
