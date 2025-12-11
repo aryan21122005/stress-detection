@@ -3,7 +3,7 @@ services:
     name: stress-detection-api
     env: python
     python:
-      version: "3.10.13"
+      version: "3.10.13"  # Explicitly set to Python 3.10
     buildCommand: pip install -r requirements.txt
     startCommand: uvicorn src.inference.infer_service:app --host 0.0.0.0 --port $PORT
     envVars:
