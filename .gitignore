@@ -5,6 +5,7 @@ data/
 *.pth
 *.pkl
 *.npy
+sessions/
 
 # Python
 __pycache__/
