@@ -45,3 +45,5 @@ ENV/
 *.log
 *.sql
 *.sqlite
+.vercel
+.env*.local

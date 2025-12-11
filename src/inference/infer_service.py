@@ -5,6 +5,7 @@ import os
 import json
 import urllib.request
 import urllib.error
+from pymongo import MongoClient
 
 import torch
 import uvicorn
@@ -32,6 +33,9 @@ app.add_middleware(
 _device = "cuda" if torch.cuda.is_available() else "cpu"
 _model = None
 _tf = get_inference_transform(224)
+_mongo_client = None
+_mongo_db = None
+_mongo_coll = None
 
 
 def _load_model(weights_path: str | None = None):
@@ -55,6 +59,20 @@ def _load_model(weights_path: str | None = None):
 def _startup():
     # Lazy load on first request as well, but try early to warm up
     _load_model()
+    # Initialize Mongo if env vars are present
+    global _mongo_client, _mongo_db, _mongo_coll
+    uri = os.getenv("MONGO_URI")
+    dbname = os.getenv("MONGO_DB")
+    collname = os.getenv("MONGO_COLLECTION", "analytics_data")
+    if uri and dbname:
+        try:
+            _mongo_client = MongoClient(uri)
+            _mongo_db = _mongo_client[dbname]
+            _mongo_coll = _mongo_db[collname]
+        except Exception:
+            _mongo_client = None
+            _mongo_db = None
+            _mongo_coll = None
 
 
 def _softmax(x: torch.Tensor) -> torch.Tensor:
@@ -112,10 +130,21 @@ async def save_metrics(payload: Dict) -> Dict:
     Requires environment variables:
       SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY
     """
-    sb_url = os.getenv("SUPABASE_URL")
-    sb_key = os.getenv("SUPABASE_SERVICE_ROLE_KEY")
-    if not sb_url or not sb_key:
-        raise HTTPException(status_code=501, detail="Supabase relay not configured")
+    global _mongo_coll
+    if _mongo_coll is None:
+        # Late init if not already done
+        uri = os.getenv("MONGO_URI")
+        dbname = os.getenv("MONGO_DB")
+        collname = os.getenv("MONGO_COLLECTION", "analytics_data")
+        if uri and dbname:
+            try:
+                _client = MongoClient(uri)
+                _db = _client[dbname]
+                _mongo_coll = _db[collname]
+            except Exception:
+                _mongo_coll = None
+        if _mongo_coll is None:
+            raise HTTPException(status_code=501, detail="MongoDB not configured")
 
     # Build record
     rec = {
@@ -128,27 +157,11 @@ async def save_metrics(payload: Dict) -> Dict:
     if not rec["session_id"]:
         raise HTTPException(status_code=400, detail="session_id is required")
 
-    data = json.dumps(rec).encode("utf-8")
-    req = urllib.request.Request(
-        url=f"{sb_url}/rest/v1/analytics_data",
-        data=data,
-        method="POST",
-        headers={
-            "Content-Type": "application/json",
-            "Prefer": "return=minimal",
-            "apikey": sb_key,
-            "Authorization": f"Bearer {sb_key}",
-        },
-    )
     try:
-        with urllib.request.urlopen(req, timeout=10) as resp:
-            _ = resp.read()
+        _mongo_coll.insert_one(rec)
         return {"ok": True}
-    except urllib.error.HTTPError as e:
-        detail = e.read().decode("utf-8", errors="ignore")
-        raise HTTPException(status_code=e.code, detail=f"Supabase error: {detail}")
     except Exception as e:
-        raise HTTPException(status_code=500, detail=f"Relay error: {e}")
+        raise HTTPException(status_code=500, detail=f"Mongo insert error: {e}")
 
 
 if __name__ == "__main__":
