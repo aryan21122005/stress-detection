@@ -6,6 +6,8 @@ data/
 *.pkl
 *.npy
 sessions/
+checkpoints/
+logs/
 
 # Python
 __pycache__/
@@ -48,3 +50,37 @@ ENV/
 *.sqlite
 .vercel
 .env*.local
+
+# Node.js
+node_modules/
+
+# Training files
+train_sequential.py
+evaluate_fer2013.py
+evaluate_models.py
+evaluate.py
+
+# Large model files
+*.pt
+*.pth
+*.h5
+*.bin
+*.onnx
+
+# Dataset files
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.mp4
+*.avi
+*.mov
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
